@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#2E3192</color>
-    <color name="primary_dark">#2E3192</color>
+    <color name="primary">#657383</color>
+    <color name="primary_dark">#657383</color>
     <color name="colorAccent">#FFFFFF</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#657383</color>
 <!--
     <color name="splashscreencolor">#EE0A0A</color>
 -->
@@ -46,4 +46,10 @@
     <color name="txt_grey">#4e5457</color>
     <color name="txt_blue">#136af6</color>
     <color name="red">#f63030</color>
+    <color name="black1">#fb0668</color>
+    <color name="white1">#FCFDFF</color>
+    <color name="amin">#A43931</color>
+
+
+
 </resources>

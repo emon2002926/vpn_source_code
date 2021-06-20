@@ -13,20 +13,20 @@
         android:background="@color/white"
         >
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/loading_view"
-            android:layout_width="200dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="-5dp"
-            android:visibility="visible"
-            android:layout_marginBottom="-5dp"
-            android:layout_centerHorizontal="true"
-            app:lottie_rawRes="@raw/map_load"
-            app:lottie_loop="true"
-            android:layout_below="@+id/connect_btn"
-            app:lottie_autoPlay="true"
-            android:layout_centerInParent="true"
-            />
+<!--        <com.airbnb.lottie.LottieAnimationView-->
+<!--            android:id="@+id/loading_view"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_marginTop="-5dp"-->
+<!--            android:visibility="visible"-->
+<!--            android:layout_marginBottom="-5dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            app:lottie_rawRes="@raw/map_load"-->
+<!--            app:lottie_loop="true"-->
+<!--            android:layout_below="@+id/connect_btn"-->
+<!--            app:lottie_autoPlay="true"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            />-->
 
     </RelativeLayout>
 

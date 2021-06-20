@@ -1,4 +1,4 @@
-package com.openvpn.vpn;
+package com.whois.vpn;
 
 import android.app.Application;
 import android.content.Context;
@@ -14,9 +14,10 @@ import com.anchorfree.sdk.TransportConfig;
 import com.anchorfree.sdk.UnifiedSDK;
 import com.anchorfree.sdk.UnifiedSDKConfig;
 import com.anchorfree.vpnsdk.callbacks.CompletableCallback;
-import com.openvpn.vpn.R;
+import com.northghost.caketube.OpenVpnTransportConfig;
 import com.onesignal.OneSignal;
 import com.pixplicity.easyprefs.library.Prefs;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +61,8 @@ public class App extends Application {
 
         List<TransportConfig> transportConfigList = new ArrayList<>();
         transportConfigList.add(HydraTransportConfig.create());
+        transportConfigList.add(OpenVpnTransportConfig.tcp());
+        transportConfigList.add(OpenVpnTransportConfig.udp());
         UnifiedSDK.update(transportConfigList, CompletableCallback.EMPTY);
         UnifiedSDKConfig config = UnifiedSDKConfig.newBuilder().idfaEnabled(false).build();
         unifiedSDK = UnifiedSDK.getInstance(clientInfo, config);

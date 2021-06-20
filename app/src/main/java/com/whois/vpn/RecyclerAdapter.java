@@ -1,5 +1,4 @@
-package com.openvpn.vpn;
-
+package com.whois.vpn;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,31 +7,30 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.List;
 
-public class CPUApplications_Scanning extends RecyclerView.Adapter<CPUApplications_Scanning.MyViewHolder> {
-
-
-    /// Get List of Apps Causing Junk Files
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
 
     public List<Apps> apps;
 
-    public CPUApplications_Scanning(List<Apps> getapps) {
-        apps = getapps;
+    public RecyclerAdapter(List<Apps> apps)
+    {
+        this.apps = apps;
     }
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.scan_cpu_apps, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R
+                .layout.recycler_apps, parent, false);
         return new MyViewHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        Apps app = apps.get(position);
-        holder.size.setText("");
+
+        Apps app= apps.get(position);
+        holder.size.setText(app.getSize());
         holder.image.setImageDrawable(app.getImage());
     }
 
@@ -48,7 +46,7 @@ public class CPUApplications_Scanning extends RecyclerView.Adapter<CPUApplicatio
         public MyViewHolder(View view) {
             super(view);
             size = (TextView) view.findViewById(R.id.apptext);
-            image = (ImageView) view.findViewById(R.id.appimage);
+            image=(ImageView)view.findViewById(R.id.appimage);
 
         }
     }

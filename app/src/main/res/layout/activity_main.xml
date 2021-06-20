@@ -29,30 +29,5 @@
         app:itemTextColor="#FFFFFF"
         app:itemIconTint="#FFFFFF">
 
-
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="450dp"
-            android:layout_marginLeft="70dp"
-            android:text="@string/version"
-            android:textSize="@dimen/_15sdp"
-            android:textColor="#FFFFFF"/>
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            app:srcCompat="@drawable/dra_one"
-            android:layout_marginTop="408dp"
-            android:layout_marginLeft="95dp"
-            tools:ignore="VectorDrawableCompat" />
-
-
-
     </com.google.android.material.navigation.NavigationView>
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>

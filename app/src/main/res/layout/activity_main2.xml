@@ -361,8 +361,6 @@
                 android:paddingRight="7dp"
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
-                android:background="@drawable/button_bg2"
-
 
                 >
 
@@ -370,10 +368,9 @@
                     android:id="@+id/header"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_bg2"
+                    android:background="@color/amin"
                     android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
 
                     <LinearLayout
@@ -381,7 +378,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
-
                         >
 
                         <ImageView
@@ -398,7 +394,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/_19sdp"
                         android:layout_gravity="center"
-
                         >
 
                         <TextView
@@ -538,14 +533,7 @@
                 android:id="@+id/fl_adplaceholder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textbutton1"
-                android:text="testButton"
-                />
+                android:visibility="visible" />
 
         </LinearLayout>
 

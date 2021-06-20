@@ -1,15 +1,14 @@
 <resources>
     <!--App Name-->
-    <string name="app_name">Premium VPN</string>
+    <string name="app_name">Fluid VPN</string>
     <!--END App Name-->
 
     <string name="vpn_process_name" translatable="false">:my.custom.vpn.process.name</string>
     <string name="vpn_provider_authorities" translatable="false">com.anchorfree.hydrasdk.app.demo</string>
-    <string name="version">Version 1.0</string>
+    <!--    <string name="version">Version 1.0</string>-->
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_of_service">Terms of Service</string>
     <!-- END of Application Layout Text Title   -->
-
 
 
     <!--Application others Titles-->
@@ -41,7 +40,7 @@
     <!--END Enable and Disable Ads in App-->
 
     <!--Google Ads ID'S-->
-    <string name="admob_appid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_appid">ca-app-pub-2769691289430063~1616639666</string>
     <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_native">ca-app-pub-3940256099942544/2247696110</string>
     <string name="admob_intersitail">ca-app-pub-3940256099942544/1033173712</string>
@@ -49,11 +48,11 @@
     <!--END Google Ads-->
 
     <!--Facebook Ad ID / Facebook ads for future update-->
-    <string name="facebook_placement_id">125586658_568258654</string>
+    <string name="facebook_placement_id">207605630926612</string>
     <!--END Facebook Ads-->
 
     <!--Change Privacy Policy URL-->
-    <string name="privacy_policy_link">https://docs.google.com/document/d/1WfCF7VbqPNuZvwydknek5pCkQH3zxuuYQl3bs6eudBg/edit</string>
+    <string name="privacy_policy_link">https://www.privacypolicies.com/live/c8224bad-b9de-41fc-8e67-9761efd60e92</string>
     <!--END Change Privacy Policy URL-->
 
     <!--User can show either google ads or facebook ads in servers list-->
@@ -69,28 +68,15 @@
     <string name="dash">-</string>
     <!-- Facebook ads for future update-->
     <bool name="facebook_list_ads">false</bool>
-    <string name="speedtxt">Optimize your phone\'s speed by using our exclusive feature of eVPN. It will close your running tasks.  </string>
-    <string name="cool_down">Cool Down</string>
-    <string name="overheated">OVERHEATED</string>
-    <string name="apps_are_causing_problem_hit_cool_down" translatable="false">Apps Are Causing Problem Hit Cool Down</string>
-    <string name="cpu_cooler">CPU Cooler</string>
-    <string name="ext_battery">\n to 6h 30m</string>
-    <string name="batterysavertxt">Save your battery power and optimize battery usage with just 1 tap, longer the phone battery life up to 80%.</string>
     <!--vip subscription period prices-->
-    <string name="vip_price_month"> $3.29</string>
-    <string name="vip_price_3month"> $4.39</string>
-    <string name="vip_price_6month"> $6.59</string>
-    <string name="vip_price_12month"> $9.49</string>
+    <string name="vip_price_month"> $10</string>
+    <string name="vip_price_3month"> $25</string>
+    <string name="vip_price_6month"> $45</string>
+    <string name="vip_price_12month"> $80</string>
     <string name="speed_booster">Speed Booster</string>
     <!--vip subscription period prices-->
 
-    <string name="interstitial_ad_unit" translatable="false">ca-app-pub-6098768079659830/2690364172</string>
-    <string name="banner_ad_unit" translatable="false"> ca-app-pub-6098768079659830/4021603626</string>
-    <string name="battery_saver">Battery Saver</string>
-    <string name="extended_battery_life"> \n to 2h 10m </string>
-    <string name="optimize">optimize</string>
-
-
-
+    <string name="interstitial_ad_unit" translatable="false">ca-app-pub-2769691289430063/2530266082</string>
+    <string name="banner_ad_unit" translatable="false">ca-app-pub-2769691289430063/4789597911</string>
 
 </resources>
