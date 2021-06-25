@@ -324,13 +324,7 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Not Connected"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:visibility="gone" />
+
 
                     <TextView
                         android:id="@+id/tv_timer"
@@ -546,6 +540,28 @@
                 android:id="@+id/textbutton1"
                 android:text="testButton"
                 />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/testShowMeterDownload"
+                android:text="2.4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_30sdp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/testShowMeterupload"
+                android:text="2.4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_30sdp"
+                >
+
+            </TextView>
 
         </LinearLayout>
 
