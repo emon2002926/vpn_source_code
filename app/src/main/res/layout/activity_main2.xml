@@ -26,7 +26,7 @@
             android:textColor="@color/colorPrimary"
             android:gravity="center"
             android:textAllCaps="true"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:layout_marginTop="25dp"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
@@ -41,7 +41,7 @@
             android:background="@drawable/btn_button"
             android:layout_marginLeft="130dp"
             android:layout_below="@+id/t"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             >
 
             <ImageView
@@ -54,10 +54,6 @@
 
 
         </RelativeLayout>
-
-
-
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -78,12 +74,11 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="180dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="200dp"
                 android:gravity="center"
+
                 >
-
-
 
 
                 <TextView
@@ -103,9 +98,8 @@
                     android:gravity="center"
                     android:text="Connected Server"
                     android:textColor="@color/colorPrimary"
-                    android:textStyle="bold"
                     android:textSize="@dimen/_15sdp"
-                    />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -120,13 +114,6 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Not Connected"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/tv_timer"
@@ -144,12 +131,12 @@
 
             </RelativeLayout>
 
-                <LinearLayout
+            <LinearLayout
                     android:id="@+id/header"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/additionalServer"
-                    android:gravity=""
+                    android:gravity="center"
                     android:orientation="horizontal"
                     android:layout_marginTop="@dimen/_25sdp"
 
@@ -158,24 +145,22 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginTop="@dimen/_7sdp"
+                        android:gravity="center"
                         >
 
                         <ImageView
                             android:id="@+id/flag_image"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/gloveee" />
+                            android:src="@drawable/map" />
                     </LinearLayout>
 
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/_19sdp"
                         android:layout_gravity="center"
                         >
 
@@ -186,18 +171,19 @@
                             android:layout_gravity="center_vertical"
                             android:clickable="true"
                             android:layout_margin="15dp"
-                            android:text="Select Country"
+                            android:text="Location"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25sp" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="fill"
-                        android:gravity="end"
-                        android:layout_marginEnd="2dp">
+                        android:gravity="start"
+                        android:layout_marginEnd="2dp"
+
+                        >
 
                         <ImageView
                             android:id="@+id/vpn_details"
