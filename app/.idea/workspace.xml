@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3de362b-81dd-44fb-ab8c-19b922975894" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/Apps_Picker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/BatteryActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/Black_Battery_Saver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/CPUCoolerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/ContentsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/IntroActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/NormalMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/PopUp_SavingPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/Saving_Power_Comp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/ScannerCPU.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/Servers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/SpeedBoosterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/SplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/UApplying.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/UPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/UnlockAllActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Activities/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdapterWrappers/FBNativeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdapterWrappers/RecyclerViewAdapterWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdapterWrappers/ServerListAdapterFree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdapterWrappers/ServerListAdapterVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/AdapterWrappers/TabAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Apps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/BoostAlarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/CPUApplications_Scanning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Fragments/FragmentFree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Fragments/FragmentVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/ItemPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/PowerModeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/RecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Utils/CustomTxTRegular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Utils/CustomTxtSemibold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/Utils/LocalFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/speed/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/speed/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/openvpn/vpn/speed/TotalTraffic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_battery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_battery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_c_p_u_cooler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_c_p_u_cooler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_normal_mode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_normal_mode.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_pop_up__saving_power.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_pop_up__saving_power.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_saving__power__comp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_saving__power__comp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_scanner_c_p_u.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_scanner_c_p_u.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_speed_booster.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_speed_booster.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_u_applying.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_u_applying.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_u_pop_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_u_pop_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/powe_itemlist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/powe_itemlist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qwawWjMRDZI6727TLkGgnu1Ccj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3de362b-81dd-44fb-ab8c-19b922975894" name="Default Changelist" comment="" />
+      <created>1617993344445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617993344445</updated>
+    </task>
+    <servers />
+  </component>
+</project>

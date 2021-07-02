@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-events:3.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dae24eff800ecccc79be6b57bb86e52/jetified-sdk-events-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dae24eff800ecccc79be6b57bb86e52/jetified-sdk-events-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6dae24eff800ecccc79be6b57bb86e52/jetified-sdk-events-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bc2d3e4bc2fb6e28b0a1626448b738c/jetified-sdk-events-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bc2d3e4bc2fb6e28b0a1626448b738c/jetified-sdk-events-3.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bc2d3e4bc2fb6e28b0a1626448b738c/jetified-sdk-events-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a7bbb6a8303e52a4114e9feb2c7805/jetified-sdk-events-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a7bbb6a8303e52a4114e9feb2c7805/jetified-sdk-events-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2a7bbb6a8303e52a4114e9feb2c7805/jetified-sdk-events-3.3.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

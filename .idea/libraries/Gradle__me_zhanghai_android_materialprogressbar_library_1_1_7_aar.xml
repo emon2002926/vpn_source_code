@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: me.zhanghai.android.materialprogressbar:library:1.1.7@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176b6d1dc99d833c6c5c376df8f4c64d/jetified-library-1.1.7/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/648314142e79f09e4528fd1e6510eca1/jetified-library-1.1.7/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7345d9fd005d917b1a40f351d7c2287c/jetified-library-1.1.7/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176b6d1dc99d833c6c5c376df8f4c64d/jetified-library-1.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176b6d1dc99d833c6c5c376df8f4c64d/jetified-library-1.1.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176b6d1dc99d833c6c5c376df8f4c64d/jetified-library-1.1.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/648314142e79f09e4528fd1e6510eca1/jetified-library-1.1.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/648314142e79f09e4528fd1e6510eca1/jetified-library-1.1.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/648314142e79f09e4528fd1e6510eca1/jetified-library-1.1.7/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7345d9fd005d917b1a40f351d7c2287c/jetified-library-1.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7345d9fd005d917b1a40f351d7c2287c/jetified-library-1.1.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7345d9fd005d917b1a40f351d7c2287c/jetified-library-1.1.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.materialprogressbar/library/1.1.7/8c0868ffd1b0d3d22297eb26aaf7bd8e5c35410c/library-1.1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.zhanghai.android.materialprogressbar/library/1.1.7/5c8b4ffc0795143999933697805c7e7aead41e47/library-1.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

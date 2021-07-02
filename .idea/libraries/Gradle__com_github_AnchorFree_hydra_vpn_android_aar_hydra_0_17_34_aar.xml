@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnchorFree.hydra-vpn-android:aar-hydra:0.17.34@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d2c31dafbc52620d08c93d20b401e7/jetified-aar-hydra-0.17.34/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d2c31dafbc52620d08c93d20b401e7/jetified-aar-hydra-0.17.34/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24d2c31dafbc52620d08c93d20b401e7/jetified-aar-hydra-0.17.34/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e4fbcb7b12476f814198537a6691c0/jetified-aar-hydra-0.17.34/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e4fbcb7b12476f814198537a6691c0/jetified-aar-hydra-0.17.34/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e4fbcb7b12476f814198537a6691c0/jetified-aar-hydra-0.17.34/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59943934ecad27ddd4254831f19c955d/jetified-aar-hydra-0.17.34/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59943934ecad27ddd4254831f19c955d/jetified-aar-hydra-0.17.34/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59943934ecad27ddd4254831f19c955d/jetified-aar-hydra-0.17.34/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
