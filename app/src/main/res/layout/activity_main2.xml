@@ -45,7 +45,7 @@
             >
 
             <ImageView
-                android:id="@+id/connect_btn"
+                android:id="@+id/connect_btn2"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_centerHorizontal="true"
@@ -70,6 +70,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:src="@drawable/ic_menu" />
+
+
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -130,6 +132,38 @@
                 </LinearLayout>
 
             </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:id="@+id/testShowMeterDownload"
+                    android:text="3.4 mbit"
+                    android:textColor="@color/popUpBg"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="3.4 mbit"
+                    android:textColor="@color/popUpBg"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:id="@+id/testShowMeterupload"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
 
             <LinearLayout
                     android:id="@+id/header"
@@ -196,16 +230,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
-
-
-
-
-
-
-
-
         </LinearLayout>
-
 
 
     </RelativeLayout>

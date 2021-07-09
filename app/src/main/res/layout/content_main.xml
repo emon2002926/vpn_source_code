@@ -4,7 +4,6 @@
     android:id="@+id/main_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/new_test"
     android:gravity="bottom"
     android:orientation="vertical"
     android:scrollbars="none"
@@ -19,175 +18,17 @@
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:background="@drawable/h_bg"
             android:padding="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:textColor="@color/additionalServer"
+            android:textColor="@color/colorPrimary"
             android:gravity="center"
             android:textAllCaps="true"
             android:textSize="20dp"
             android:layout_marginTop="25dp"
             android:layout_height="wrap_content"
             android:text="@string/app_name" />
-
-
-
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.5"
-            android:layout_marginTop="50dp">
-
-
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="220dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="190dp"
-                    android:layout_gravity="center"
-                    app:cardCornerRadius="10dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="2dp"
-                    app:cardElevation="12dp"
-                    android:layout_marginRight="0dp"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="135dp"
-                        android:layout_height="178dp"
-                        android:layout_marginTop="-5dp"
-                        android:layout_marginRight="0dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="@color/amin"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/downloading"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginBottom="0dp"
-                            android:text="3.4 mbit"
-                            android:textColor="@color/colorwhite"
-                            android:textSize="@dimen/_15sdp" />
-
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/gifImageView2"
-                            android:layout_width="100dp"
-                            android:layout_height="80dp"
-                            android:adjustViewBounds="true"
-                            android:layout_gravity="center"
-                            android:background="@color/transparent" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:textStyle="bold"
-                            android:layout_marginBottom="10dp"
-                            android:text="Download"
-                            android:textColor="@color/colorwhite"
-                            android:textSize="@dimen/_15sdp">
-
-                        </TextView>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-
-
-
-
-            <LinearLayout
-                android:layout_width="190dp"
-                android:layout_height="220dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginStart="10dp"
-                android:layout_weight="1"
-                android:gravity="end"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="190dp"
-                    app:cardCornerRadius="10dp"
-                    app:cardElevation="12dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginBottom="5dp"
-                    android:layout_gravity="center"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="135dp"
-                        android:layout_height="178dp"
-                        android:layout_marginRight="0dp"
-                        android:layout_marginTop="-5dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="@color/amin"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/uploading"
-                            android:layout_gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="3.4 mbit"
-                            android:textColor="@color/colorwhite"
-                            android:textSize="@dimen/_15sdp"/>
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:id="@+id/gifImageView1"
-                            android:adjustViewBounds="true"
-                            android:layout_width="100dp"
-                            android:layout_height="80dp"
-                            android:background="@color/transparent"
-                            />
-
-                        <TextView
-                            android:layout_gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Upload"
-                            android:textStyle="bold"
-                            android:textColor="@color/colorwhite"
-                            android:layout_marginBottom="10dp"
-                            android:textSize="@dimen/_15sdp">
-
-                        </TextView>
-
-
-                    </LinearLayout>
-
-
-
-                </androidx.cardview.widget.CardView>
-
-
-            </LinearLayout>
-        </LinearLayout>
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -206,111 +47,56 @@
 
 
             <RelativeLayout
-                android:id="@+id/btnServerList"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginTop="-50dp"
-                android:layout_marginEnd="5dp"
-                android:padding="10dp">
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_button"
+                android:layout_marginTop="40dp"
+                >
 
 
-                <pl.droidsonroids.gif.GifImageView
-                    android:id="@+id/ic_crown"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:adjustViewBounds="true"
-                    />
-
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toEndOf="@+id/ic_crown"
-                    android:layout_toRightOf="@+id/ic_crown"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="GET PREMIUM"
-                        android:textColor="@color/gnt_black"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="* Go Fast Servers &amp; No Ads "
-                        android:textColor="@color/gnt_black" />
-                </LinearLayout>
+                <ImageView
+                    android:id="@+id/connect_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/ic_on_off" />
 
             </RelativeLayout>
+
 
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="180dp">
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
 
+                >
 
-                <LinearLayout
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="35dp">
-
-                    <RelativeLayout
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:background="@drawable/btn_button">
-
-                        <ImageView
-                            android:id="@+id/connect_btn"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginTop="20dp"
-                            android:src="@drawable/ic_on_off" />
-
-
-                    </RelativeLayout>
-                </LinearLayout>
 
                 <TextView
+
                     android:id="@+id/connection_state"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginBottom="0dp"
                     android:drawableStart="@drawable/ic_dot"
                     android:drawableLeft="@drawable/ic_dot"
                     android:drawableEnd="@drawable/ic_signal"
                     android:drawableRight="@drawable/ic_signal"
                     android:drawablePadding="10dp"
-                    android:gravity="bottom"
+                    android:gravity="center"
                     android:text="Connected Server"
-                    android:textColor="@color/primary"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_alignParentEnd="true"
-
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginRight="20dp"
-                    android:src="@drawable/flag_default"
-                    android:visibility="gone" />
 
                 <LinearLayout
                     android:id="@+id/status_time_layout"
@@ -325,7 +111,6 @@
                     android:orientation="vertical">
 
 
-
                     <TextView
                         android:id="@+id/tv_timer"
                         android:layout_width="wrap_content"
@@ -334,17 +119,41 @@
                         android:layout_marginTop="10dp"
                         android:gravity="center"
                         android:hint="Time 00:00:00"
-                        android:textColor="@color/colorwhite"
-                        android:textColorHint="@color/colorwhite"
-                        android:textSize="15sp" />
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary"
+                        android:textSize="@dimen/_15sdp" />
 
                 </LinearLayout>
 
             </RelativeLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:id="@+id/testShowMeterDownload"
+                    android:text="3.4 mbit"
+                    android:textColor="@color/popUpBg"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    />
+                <TextView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="3.4 mbit"
+                    android:textColor="@color/popUpBg"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_30sdp"
+                    android:id="@+id/testShowMeterupload"
 
-
-
+                    />
+            </LinearLayout>
 
             <RelativeLayout
                 android:id="@+id/vpn_location"
@@ -355,7 +164,6 @@
                 android:paddingRight="7dp"
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
-                android:background="@drawable/button_bg2"
 
 
                 >
@@ -364,35 +172,32 @@
                     android:id="@+id/header"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_bg2"
-                    android:gravity="center_vertical"
+                    android:background="@color/additionalServer"
+                    android:gravity="center"
                     android:orientation="horizontal"
-                    >
 
+                    >
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
-
+                        android:gravity="center"
                         >
 
                         <ImageView
                             android:id="@+id/flag_image"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_gravity="center"
-                            android:src="@drawable/glov" />
+                            android:src="@drawable/map" />
                     </LinearLayout>
 
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/_19sdp"
                         android:layout_gravity="center"
-
                         >
 
                         <TextView
@@ -402,18 +207,19 @@
                             android:layout_gravity="center_vertical"
                             android:clickable="true"
                             android:layout_margin="15dp"
-                            android:text="Select Country"
-                            android:textColor="@color/colorwhite"
+                            android:text="Location"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="25sp" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="fill"
-                        android:gravity="end"
-                        android:layout_marginEnd="2dp">
+                        android:gravity="start"
+                        android:layout_marginEnd="2dp"
+
+                        >
 
                         <ImageView
                             android:id="@+id/vpn_details"
@@ -541,27 +347,6 @@
                 android:text="testButton"
                 />
 
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/testShowMeterDownload"
-                android:text="2.4"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp"
-                >
-
-            </TextView>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/testShowMeterupload"
-                android:text="2.4"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_30sdp"
-                >
-
-            </TextView>
 
         </LinearLayout>
 
