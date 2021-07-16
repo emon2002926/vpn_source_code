@@ -134,8 +134,8 @@
                             android:layout_height="wrap_content"
                             android:textAlignment="center"
                             android:textSize="12sp"
-                            android:background="@color/primary"
-                            android:textColor="@color/white"
+                            android:background="@color/colorAccent"
+                            android:textColor="@color/colorAccent"
                             />
                     </LinearLayout>
                 </LinearLayout>

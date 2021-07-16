@@ -26,7 +26,7 @@
         android:background="@drawable/three_month"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"
-        app:itemTextColor="#FFFFFF"
+        app:itemTextColor="#040404"
         app:itemIconTint="#FFFFFF">
 
     </com.google.android.material.navigation.NavigationView>

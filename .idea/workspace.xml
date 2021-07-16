@@ -24,10 +24,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/ContentsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/ContentsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/common_round_white_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/common_round_white_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/consume.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/contacts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cooler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cooling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/h_bg_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/h_bg_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/three_month.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/three_month.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ad_unified.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ad_unified.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/region_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/region_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/server_list_free.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/server_list_free.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/vpn_disconnection_dialiog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/vpn_disconnection_dialiog.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625259672974</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="s">
+      <created>1625861323869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625861323869</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,10 +329,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="263" y="73" key="AndroidThemeDialog/0.0.1366.738@0.0.1366.738" timestamp="1617997458183" />
-    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2" timestamp="1625259672747">
+    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2" timestamp="1625861321920">
       <screen x="0" y="28" width="1366" height="668" />
     </state>
-    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2/0.28.1366.668@0.28.1366.668" timestamp="1625259672747" />
+    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2/0.28.1366.668@0.28.1366.668" timestamp="1625861321920" />
     <state x="463" y="140" width="472" height="545" key="FileChooserDialogImpl" timestamp="1625395074497">
       <screen x="0" y="28" width="1366" height="668" />
     </state>
@@ -338,10 +366,10 @@
       <screen x="0" y="28" width="1366" height="668" />
     </state>
     <state x="172" y="28" width="1012" height="668" key="SettingsEditor/0.28.1366.668@0.28.1366.668" timestamp="1624131301747" />
-    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1625861306362">
+    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1625861330776">
       <screen x="0" y="28" width="1366" height="668" />
     </state>
-    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2/0.28.1366.668@0.28.1366.668" timestamp="1625861306362" />
+    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2/0.28.1366.668@0.28.1366.668" timestamp="1625861330776" />
     <state x="455" y="142" width="446" height="442" key="chooseDestDirectoryDialog" timestamp="1624525362565">
       <screen x="0" y="28" width="1366" height="668" />
     </state>

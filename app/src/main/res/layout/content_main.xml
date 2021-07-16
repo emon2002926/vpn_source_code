@@ -30,6 +30,9 @@
             android:layout_height="wrap_content"
             android:text="@string/app_name" />
 
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -47,13 +50,61 @@
 
 
             <RelativeLayout
+                android:id="@+id/btnServerList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="-50dp"
+                android:layout_marginEnd="5dp"
+                android:padding="10dp">
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/ic_crown"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@+id/ic_crown"
+                    android:layout_toRightOf="@+id/ic_crown"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="GET PREMIUM"
+                        android:textColor="@color/gnt_black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="* Go Fast Servers &amp; No Ads "
+                        android:textColor="@color/gnt_black" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:background="@drawable/btn_button"
+                android:layout_below="@+id/t"
                 android:layout_marginTop="40dp"
                 >
-
 
                 <ImageView
                     android:id="@+id/connect_btn"
@@ -63,22 +114,18 @@
                     android:layout_marginTop="40dp"
                     android:src="@drawable/ic_on_off" />
 
-            </RelativeLayout>
 
+            </RelativeLayout>
 
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:gravity="center"
-
                 >
 
-
                 <TextView
-
                     android:id="@+id/connection_state"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -95,7 +142,9 @@
                     android:text="Connected Server"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_15sdp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+
+                    />
 
 
                 <LinearLayout
@@ -111,6 +160,7 @@
                     android:orientation="vertical">
 
 
+
                     <TextView
                         android:id="@+id/tv_timer"
                         android:layout_width="wrap_content"
@@ -121,7 +171,8 @@
                         android:hint="Time 00:00:00"
                         android:textColor="@color/colorPrimary"
                         android:textColorHint="@color/colorPrimary"
-                        android:textSize="@dimen/_15sdp" />
+                        android:textSize="@dimen/_15sdp"
+                        />
 
                 </LinearLayout>
 
@@ -131,6 +182,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_50sdp"
                 android:orientation="horizontal"
+                android:gravity="center"
                 >
                 <TextView
                     android:layout_width="@dimen/_60sdp"
@@ -140,7 +192,6 @@
                     android:textColor="@color/popUpBg"
                     android:textSize="@dimen/_15sdp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/_50sdp"
                     />
                 <TextView
                     android:layout_width="@dimen/_60sdp"
@@ -153,7 +204,10 @@
                     android:id="@+id/testShowMeterupload"
 
                     />
+
             </LinearLayout>
+
+
 
             <RelativeLayout
                 android:id="@+id/vpn_location"
@@ -175,14 +229,15 @@
                     android:background="@color/additionalServer"
                     android:gravity="center"
                     android:orientation="horizontal"
-
                     >
+
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
-                        android:gravity="center"
+
                         >
 
                         <ImageView
@@ -198,6 +253,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+
                         >
 
                         <TextView
@@ -207,7 +263,7 @@
                             android:layout_gravity="center_vertical"
                             android:clickable="true"
                             android:layout_margin="15dp"
-                            android:text="Location"
+                            android:text="Select Country"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25sp" />
 
@@ -216,10 +272,9 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity=""
                         android:gravity="start"
-                        android:layout_marginEnd="2dp"
-
-                        >
+                        android:layout_marginEnd="2dp">
 
                         <ImageView
                             android:id="@+id/vpn_details"
@@ -346,6 +401,8 @@
                 android:id="@+id/textbutton1"
                 android:text="testButton"
                 />
+
+
 
 
         </LinearLayout>

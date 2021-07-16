@@ -101,7 +101,9 @@
                     android:text="Connected Server"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_15sdp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+
+                    />
 
 
                 <LinearLayout
@@ -127,7 +129,8 @@
                         android:hint="Time 00:00:00"
                         android:textColor="@color/colorPrimary"
                         android:textColorHint="@color/colorPrimary"
-                        android:textSize="@dimen/_15sdp" />
+                        android:textSize="@dimen/_15sdp"
+                        />
 
                 </LinearLayout>
 
@@ -158,8 +161,6 @@
                     android:id="@+id/testShowMeterupload"
 
                     />
-
-
 
             </LinearLayout>
 

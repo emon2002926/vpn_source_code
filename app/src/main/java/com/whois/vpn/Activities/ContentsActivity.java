@@ -113,6 +113,9 @@ public abstract class ContentsActivity extends AppCompatActivity implements Navi
 
     @BindView(R.id.flag_image)
     ImageView imgFlag;
+//
+//    @BindView(R.id.rcv_free)
+//    RecyclerView rcvFree;
 
     @BindView(R.id.flag_name)
     TextView flagName;
@@ -120,6 +123,13 @@ public abstract class ContentsActivity extends AppCompatActivity implements Navi
     @BindView(R.id.footer)
     RelativeLayout footer;
 
+
+
+//    @BindView(R.id.gifImageView1)
+//    GifImageView gifImageView1;
+//
+//    @BindView(R.id.gifImageView2)
+//    GifImageView gifImageView2;
 
     Button buttontes;
 
@@ -159,6 +169,22 @@ public abstract class ContentsActivity extends AppCompatActivity implements Navi
         navigationView.setNavigationItemSelectedListener(this);
 
 
+        vpn_detail_image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showServerList();
+//                startActivity(new Intent(ContentsActivity.this, Servers.class));
+//                showOrHideAppendLayout();
+            }
+        });
+//TODO have to change this
+
+        flagName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showServerList();
+            }
+        });
 
 
         if (getResources().getBoolean(R.bool.ads_switch) && (!Config.ads_subscription && !Config.all_subscription && !Config.vip_subscription)) {
@@ -894,10 +920,10 @@ public abstract class ContentsActivity extends AppCompatActivity implements Navi
 //        startActivity(new Intent(this, UnlockAllActivity.class));
     }
 
-//    @OnClick(R.id.btnServerList)
-//    void showServerList() {
-//        startActivity(new Intent(this, Servers.class));
-//    }
+    @OnClick(R.id.btnServerList)
+    void showServerList() {
+        startActivity(new Intent(this, Servers.class));
+    }
 
     /* @OnClick(R.id.vpn_location)
      void showServerList1(){
