@@ -144,15 +144,7 @@ public abstract class ContentsActivity extends AppCompatActivity implements Navi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttontes =findViewById(R.id.textbutton1);
 
-        buttontes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(ContentsActivity.this,MainActivity2.class);
-                startActivity(intent);
-            }
-        });
 
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);

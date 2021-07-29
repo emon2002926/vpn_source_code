@@ -7,6 +7,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:scrollbars="none"
+    android:background="@color/white1"
     android:layout_below="@id/top_bar"
     tools:context="com.whois.vpn.Activities.MainActivity">
     <RelativeLayout
@@ -103,7 +104,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/btn_button"
                 android:layout_below="@+id/t"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="@dimen/_45sdp"
                 >
 
                 <ImageView
@@ -117,22 +118,22 @@
 
             </RelativeLayout>
 
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_10sdp"
+
                 >
+
 
                 <TextView
                     android:id="@+id/connection_state"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
-                    android:layout_marginTop="15dp"
                     android:layout_marginEnd="15dp"
-                    android:layout_marginBottom="0dp"
                     android:drawableStart="@drawable/ic_dot"
                     android:drawableLeft="@drawable/ic_dot"
                     android:drawableEnd="@drawable/ic_signal"
@@ -147,64 +148,6 @@
                     />
 
 
-                <LinearLayout
-                    android:id="@+id/status_time_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/connection_state"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginTop="-10dp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-
-
-                    <TextView
-                        android:id="@+id/tv_timer"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:hint="Time 00:00:00"
-                        android:textColor="@color/colorPrimary"
-                        android:textColorHint="@color/colorPrimary"
-                        android:textSize="@dimen/_15sdp"
-                        />
-
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                android:orientation="horizontal"
-                android:gravity="center"
-                >
-                <TextView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_30sdp"
-                    android:id="@+id/testShowMeterDownload"
-                    android:text="3.4 mbit"
-                    android:textColor="@color/popUpBg"
-                    android:textSize="@dimen/_15sdp"
-                    android:layout_gravity="center"
-                    />
-                <TextView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_30sdp"
-                    android:text="3.4 mbit"
-                    android:textColor="@color/popUpBg"
-                    android:textSize="@dimen/_15sdp"
-                    android:layout_gravity="center"
-                    android:layout_margin="@dimen/_30sdp"
-                    android:id="@+id/testShowMeterupload"
-
-                    />
-
             </LinearLayout>
 
 
@@ -218,15 +161,18 @@
                 android:paddingRight="7dp"
                 android:paddingBottom="5dp"
                 android:paddingTop="5dp"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+
 
 
                 >
 
                 <LinearLayout
                     android:id="@+id/header"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/additionalServer"
+                    android:background="@drawable/button_bg2"
                     android:gravity="center"
                     android:orientation="horizontal"
                     >
@@ -259,13 +205,13 @@
                         <TextView
                             android:id="@+id/flag_name"
                             android:layout_width="wrap_content"
-                            android:layout_height="40dp"
+                            android:layout_height="35dp"
                             android:layout_gravity="center_vertical"
                             android:clickable="true"
-                            android:layout_margin="15dp"
+                            android:layout_margin="1dp"
                             android:text="Select Country"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="25sp" />
+                            android:textSize="20sp" />
 
                     </LinearLayout>
 
@@ -278,8 +224,8 @@
 
                         <ImageView
                             android:id="@+id/vpn_details"
-                            android:layout_width="55dp"
-                            android:layout_height="55dp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
                             android:layout_margin="5dp"
                             android:layout_marginEnd="4dp"
                             android:src="@drawable/ic_drop_down" />
@@ -389,23 +335,148 @@
 
             </RelativeLayout>
 
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/btn_bg"
+
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_17sdp"
+                    android:text="Connected Imformation"
+                    android:id="@+id/in"
+                    android:layout_marginLeft="@dimen/_15sdp"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal"
+                    android:id="@+id/infromtion"
+                    android:gravity="center"
+                    android:layout_below="@+id/in"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+
+
+                        >
+                        <TextView
+                            android:id="@+id/tim"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Time"/>
+
+                        <TextView
+                            android:layout_below="@+id/tim"
+                            android:id="@+id/tv_timer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="start"
+                            android:hint="00:00:00"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorPrimary"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:textSize="@dimen/_13sdp"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="@dimen/_75sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+
+                        >
+                        <TextView
+                            android:id="@+id/down"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Download"/>
+
+
+                        <TextView
+                            android:layout_below="@+id/down"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/testShowMeterDownload"
+                            android:text="3.4 mbit"
+                            android:textColor="@color/popUpBg"
+                            android:textSize="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        >
+
+                        <TextView
+                            android:id="@+id/up"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/_15sdp"
+                            android:text="Upload"/>
+
+                        <TextView
+                            android:layout_below="@id/up"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3.4 mbit"
+                            android:textColor="@color/popUpBg"
+                            android:textSize="@dimen/_13sdp"
+                            android:id="@+id/testShowMeterupload"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+
+                            />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
             <RelativeLayout
                 android:id="@+id/fl_adplaceholder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="visible"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textbutton1"
-                android:text="testButton"
-                />
-
-
-
-
         </LinearLayout>
+
 
 
 
