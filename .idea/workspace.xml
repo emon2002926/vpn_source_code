@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -14,14 +14,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a82ced4-75b0-499e-9ef2-65edfce6ad1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Android_Source_Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Android_Source_Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Android_Source_Code.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Android_Source_Code.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/ContentsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/ContentsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/MainActivity2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/Servers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/Servers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Activities/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdapterWrappers/FBNativeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdapterWrappers/RecyclerViewAdapterWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdapterWrappers/ServerListAdapterFree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/AdapterWrappers/ServerListAdapterFree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdapterWrappers/ServerListAdapterVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/AdapterWrappers/TabAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/AdapterWrappers/TabAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Apps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Fragments/FragmentFree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Fragments/FragmentFree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Fragments/FragmentVip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/RecyclerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Utils/CustomTxTRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Utils/CustomTxTRegular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Utils/CustomTxtSemibold.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Utils/CustomTxtSemibold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/Utils/LocalFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Utils/LocalFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/speed/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/speed/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/speed/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/whois/vpn/speed/TotalTraffic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/waves.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/down_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/down_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/nvi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/b_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_checkbox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttonstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/calc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/downloading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/glov.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gloveee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_apply_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_blue_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_grey_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_icon_uncheck.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_navigation_white_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/premium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/r_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/speedtest2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/alertdialouge.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_facebook_native_ad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/home/md/.android/avd/Pixel_XL_API_26.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/md/.android/avd/Pixel_XL_API_26.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -45,19 +142,6 @@
                 <item name="Android Source Code" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Android Source Code" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Android Source Code" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="android" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -73,10 +157,10 @@
     </option>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/keys/whois_vpn_playstore.jks" />
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/keys/pro_vpn.jks" />
     <option name="KEY_ALIAS" value="emon" />
     <option name="REMEMBER_PASSWORDS" value="true" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,7 +177,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -111,15 +194,16 @@
     <property name="ToolWindowEmulator.ShowToolbar" value="false" />
     <property name="com.android.tools.idea.emulator.frame.cropped" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Status_V10" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recommended.upgrade.last.time.stamp" value="1628021300073" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="MODULE_TAB" value="Default Config" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
@@ -128,11 +212,11 @@
       <recent name="com.whois.vpn.Activities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -217,7 +301,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -280,85 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1627583009384</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="s">
+      <created>1627584541158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627584541158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
     <option name="LAST_COMMIT_MESSAGE" value="s" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="416" y="111" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620503010955">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="416" y="111" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1366.668@0.28.1366.668" timestamp="1620503010955" />
-    <state x="386" y="204" width="583" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1627581491752">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="386" y="204" width="583" height="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1366.668@0.28.1366.668" timestamp="1627581491752" />
-    <state x="400" y="132" width="824" height="486" key="AndroidCreateResourceFileDialog" timestamp="1621454480215">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="400" y="132" width="824" height="486" key="AndroidCreateResourceFileDialog/0.28.1366.668@0.28.1366.668" timestamp="1621454480215" />
-    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2" timestamp="1627583007394">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="165" y="28" width="1026" height="668" key="CommitChangelistDialog2/0.28.1366.668@0.28.1366.668" timestamp="1627583007394" />
-    <state x="463" y="140" width="472" height="545" key="FileChooserDialogImpl" timestamp="1627581168023">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="463" y="140" width="472" height="545" key="FileChooserDialogImpl/0.28.1366.668@0.28.1366.668" timestamp="1627581168023" />
-    <state x="499" y="262" width="367" height="202" key="Github.ShareDialog" timestamp="1624131474360">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="499" y="262" width="367" height="202" key="Github.ShareDialog/0.28.1366.668@0.28.1366.668" timestamp="1624131474360" />
-    <state width="1320" height="117" key="GridCell.Tab.0.bottom" timestamp="1625855093866">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state width="1320" height="117" key="GridCell.Tab.0.bottom/0.28.1366.668@0.28.1366.668" timestamp="1625855093866" />
-    <state width="1320" height="117" key="GridCell.Tab.0.center" timestamp="1625855093864">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state width="1320" height="117" key="GridCell.Tab.0.center/0.28.1366.668@0.28.1366.668" timestamp="1625855093864" />
-    <state width="1320" height="117" key="GridCell.Tab.0.left" timestamp="1625855093862">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state width="1320" height="117" key="GridCell.Tab.0.left/0.28.1366.668@0.28.1366.668" timestamp="1625855093862" />
-    <state width="1320" height="117" key="GridCell.Tab.0.right" timestamp="1625855093865">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state width="1320" height="117" key="GridCell.Tab.0.right/0.28.1366.668@0.28.1366.668" timestamp="1625855093865" />
-    <state x="268" y="108" width="837" height="509" key="NewModule_or_Project.wizard" timestamp="1624516838908">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="268" y="108" width="837" height="509" key="NewModule_or_Project.wizard/0.28.1366.668@0.28.1366.668" timestamp="1624516838908" />
-    <state x="172" y="28" width="1012" height="668" key="SettingsEditor" timestamp="1624131301747">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="172" y="28" width="1012" height="668" key="SettingsEditor/0.28.1366.668@0.28.1366.668" timestamp="1624131301747" />
-    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1627583319153">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="278" y="98" width="800" height="530" key="Vcs.Push.Dialog.v2/0.28.1366.668@0.28.1366.668" timestamp="1627583319153" />
-    <state x="455" y="142" width="446" height="442" key="chooseDestDirectoryDialog" timestamp="1627580901611">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="455" y="142" width="446" height="442" key="chooseDestDirectoryDialog/0.28.1366.668@0.28.1366.668" timestamp="1627580901611" />
-    <state x="293" y="28" width="770" height="668" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619003254009">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="293" y="28" width="770" height="668" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1366.668@0.28.1366.668" timestamp="1619003254009" />
-    <state x="464" y="277" width="428" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625259475819">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="464" y="277" width="428" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.28.1366.668@0.28.1366.668" timestamp="1625259475819" />
-    <state x="0" y="28" width="618" height="668" key="find.popup" timestamp="1621458035348">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="0" y="28" width="618" height="668" key="find.popup/0.28.1366.668@0.28.1366.668" timestamp="1621458035348" />
-    <state x="346" y="28" width="672" height="666" key="search.everywhere.popup" timestamp="1619851611382">
-      <screen x="0" y="28" width="1366" height="668" />
-    </state>
-    <state x="346" y="28" width="672" height="666" key="search.everywhere.popup/0.28.1366.668@0.28.1366.668" timestamp="1619851611382" />
   </component>
 </project>

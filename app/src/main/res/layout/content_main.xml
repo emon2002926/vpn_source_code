@@ -9,7 +9,7 @@
     android:scrollbars="none"
     android:background="@color/white1"
     android:layout_below="@id/top_bar"
-    tools:context="com.whois.vpn.Activities.MainActivity">
+    tools:context="com.gdalamin.vpn.Activities.MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -347,13 +347,13 @@
 
 
                 <TextView
+                    android:id="@+id/in"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/_17sdp"
-                    android:text="Connected Imformation"
-                    android:id="@+id/in"
                     android:layout_marginLeft="@dimen/_15sdp"
+                    android:text="Connected Imformation"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_20sdp"
 
                     />
 

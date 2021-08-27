@@ -1,6 +1,6 @@
 <resources>
     <!--App Name-->
-    <string name="app_name">Fluid VPN</string>
+    <string name="app_name">Pro VPN</string>
     <!--END App Name-->
 
     <string name="vpn_process_name" translatable="false">:my.custom.vpn.process.name</string>
@@ -40,7 +40,7 @@
     <!--END Enable and Disable Ads in App-->
 
     <!--Google Ads ID'S-->
-    <string name="admob_appid">ca-app-pub-2769691289430063~1616639666</string>
+    <string name="admob_appid">ca-app-pub-3940256099942544/3419835294</string>
     <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
     <string name="admob_native">ca-app-pub-3940256099942544/2247696110</string>
     <string name="admob_intersitail">ca-app-pub-3940256099942544/1033173712</string>
@@ -50,9 +50,8 @@
     <!--Facebook Ad ID / Facebook ads for future update-->
     <string name="facebook_placement_id">207605630926612</string>
     <!--END Facebook Ads-->
-
     <!--Change Privacy Policy URL-->
-    <string name="privacy_policy_link">https://www.privacypolicies.com/live/c8224bad-b9de-41fc-8e67-9761efd60e92</string>
+    <string name="privacy_policy_link">http://gdalamin-com.stackstaging.com/appprivacypolicy/</string>
     <!--END Change Privacy Policy URL-->
 
     <!--User can show either google ads or facebook ads in servers list-->
@@ -76,7 +75,7 @@
     <string name="speed_booster">Speed Booster</string>
     <!--vip subscription period prices-->
 
-    <string name="interstitial_ad_unit" translatable="false">ca-app-pub-2769691289430063/2530266082</string>
-    <string name="banner_ad_unit" translatable="false">ca-app-pub-2769691289430063/4789597911</string>
+    <string name="interstitial_ad_unit" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad_unit" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
 
 </resources>

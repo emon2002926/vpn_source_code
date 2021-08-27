@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/ad_unified.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/alertdialouge.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/app_bar.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/recycler_apps.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/region_list_item.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/server_list_free.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/vpn_disconnection_dialiog.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.14583333333333334" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

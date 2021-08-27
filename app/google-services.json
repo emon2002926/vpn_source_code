@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "278718752825",
-    "firebase_url": "https://my-story-dc88d.firebaseio.com",
-    "project_id": "my-story-dc88d",
-    "storage_bucket": "my-story-dc88d.appspot.com"
+    "project_number": "784822061542",
+    "firebase_url": "https://my-application-6c43f.firebaseio.com",
+    "project_id": "my-application-6c43f",
+    "storage_bucket": "my-application-6c43f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:278718752825:android:e387965237b0c0c78845e8",
+        "mobilesdk_app_id": "1:784822061542:android:f98487c46fa885a7962e27",
         "android_client_info": {
-          "package_name": "com.amar_golp.socialcomponents"
+          "package_name": "com.mianasad.chatsapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "278718752825-3n85a28r3a42qid73qtmbgj6uvnugd1i.apps.googleusercontent.com",
+          "client_id": "784822061542-qk2bsoi3jidpq9vkj256cqt3t9dur01v.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.amar_golp.socialcomponents",
+            "package_name": "com.mianasad.chatsapp",
             "certificate_hash": "642c5d1cb886b60da0536f46b1d7b49daa8ef005"
           }
         },
         {
-          "client_id": "278718752825-qhmmurup0gjcbqvsi6rdi0jnhtt2rhv7.apps.googleusercontent.com",
+          "client_id": "784822061542-sss957ckvhf9in3gi2lscui9a3dmrvvr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMo5yGLz0PCwuYWh1aaNOoD3cv9Tk8VH0"
+          "current_key": "AIzaSyAOV0JnEfNbr-PUc6uvamow8Cy4jFNX3Y0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "278718752825-qhmmurup0gjcbqvsi6rdi0jnhtt2rhv7.apps.googleusercontent.com",
+              "client_id": "784822061542-sss957ckvhf9in3gi2lscui9a3dmrvvr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -45,35 +45,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:278718752825:android:e62252706d03511b8845e8",
+        "mobilesdk_app_id": "1:784822061542:android:3743672055c3c75d962e27",
         "android_client_info": {
-          "package_name": "com.whois.vpn"
+          "package_name": "com.pro.vpn"
         }
       },
       "oauth_client": [
         {
-          "client_id": "278718752825-qqbotfego3i12b9rjkj7a566d49f6hmh.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.whois.vpn",
-            "certificate_hash": "167ccbbd9fd178a31c1fe600d59eeb649ee815aa"
-          }
-        },
-        {
-          "client_id": "278718752825-qhmmurup0gjcbqvsi6rdi0jnhtt2rhv7.apps.googleusercontent.com",
+          "client_id": "784822061542-sss957ckvhf9in3gi2lscui9a3dmrvvr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMo5yGLz0PCwuYWh1aaNOoD3cv9Tk8VH0"
+          "current_key": "AIzaSyAOV0JnEfNbr-PUc6uvamow8Cy4jFNX3Y0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "278718752825-qhmmurup0gjcbqvsi6rdi0jnhtt2rhv7.apps.googleusercontent.com",
+              "client_id": "784822061542-sss957ckvhf9in3gi2lscui9a3dmrvvr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

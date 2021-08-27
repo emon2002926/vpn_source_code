@@ -2,7 +2,7 @@
 <resources>
     <color name="primary">#657383</color>
     <color name="primary_dark">#657383</color>
-    <color name="colorAccent">#FFF5F5</color>
+    <color name="colorAccent">#FBF4F4</color>
     <color name="white">#657383</color>
 <!--
     <color name="splashscreencolor">#EE0A0A</color>
@@ -48,8 +48,6 @@
     <color name="red">#f63030</color>
     <color name="black1">#fb0668</color>
     <color name="white1">#FFFFFF</color>
-    <color name="amin">#A43931</color>
-
-
+    <color name="lbaground">#201f3f</color>
 
 </resources>
