@@ -161,24 +161,24 @@ import es.dmoral.toasty.Toasty;
 
 
 
-
-        if (getResources().getBoolean(R.bool.ads_switch) && (!Config.ads_subscription && !Config.all_subscription && !Config.vip_subscription))
-        {
-            // Initialize the Mobile Ads SDK.
-
-            MobileAds.initialize(ContentsActivity.this, getString(R.string.admob_appid));
-
-            //interstitial
-            mInterstitialAd = new InterstitialAd(this);
-            mInterstitialAd.setAdUnitId(getString(R.string.admob_intersitail));
-            mInterstitialAd.loadAd(new AdRequest.Builder()
-//                    .addTestDevice("91b511f6-d4ab-4a6b-94fa-e538dfbee85f")
-                    .build());
-
-        }
-
-        handlerTrafic = new Handler();
-        handleTraficData();
+//
+//        if (getResources().getBoolean(R.bool.ads_switch) && (!Config.ads_subscription && !Config.all_subscription && !Config.vip_subscription))
+//        {
+//            // Initialize the Mobile Ads SDK.
+//
+//            MobileAds.initialize(ContentsActivity.this, getString(R.string.admob_appid));
+//
+//            //interstitial
+//            mInterstitialAd = new InterstitialAd(this);
+//            mInterstitialAd.setAdUnitId(getString(R.string.admob_intersitail));
+//            mInterstitialAd.loadAd(new AdRequest.Builder()
+////                    .addTestDevice("91b511f6-d4ab-4a6b-94fa-e538dfbee85f")
+//                    .build());
+//
+//        }
+//
+//        handlerTrafic = new Handler();
+//        handleTraficData();
     }
 
 
@@ -189,16 +189,14 @@ import es.dmoral.toasty.Toasty;
         if (STATUS.equals("Connect")) {
             updateUI();
             connectToVpn();
-            loadAdAgain();
+//            loadAdAgain();
         } else if (STATUS.equals("Disconnect")) {
             disconnectAlert();
-            loadAdAgain();
+//            loadAdAgain();
         }
     }
 
-    private void loadAdAgain() {
 
-    }
 
     @Override
     public void onBackPressed() {

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.daoibrahim:AdmobAdvancedNativeRecyclerview:1.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eab013bcf8cbda490d7e217c51ddf89/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eab013bcf8cbda490d7e217c51ddf89/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eab013bcf8cbda490d7e217c51ddf89/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47aaf41ba3e6154b203a218394e02d06/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47aaf41ba3e6154b203a218394e02d06/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47aaf41ba3e6154b203a218394e02d06/jetified-AdmobAdvancedNativeRecyclerview-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

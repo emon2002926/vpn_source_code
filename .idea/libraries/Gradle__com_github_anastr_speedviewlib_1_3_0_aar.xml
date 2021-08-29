@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.anastr:speedviewlib:1.3.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ab36391284b565de7230889c02d92b6/jetified-speedviewlib-1.3.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ab36391284b565de7230889c02d92b6/jetified-speedviewlib-1.3.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ab36391284b565de7230889c02d92b6/jetified-speedviewlib-1.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad24b45ad413d833d3d4e942e72cbbb8/jetified-speedviewlib-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad24b45ad413d833d3d4e942e72cbbb8/jetified-speedviewlib-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad24b45ad413d833d3d4e942e72cbbb8/jetified-speedviewlib-1.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.anastr/speedviewlib/1.3.0/f6b5441cd9c833a92662fa4a237a312d7816b8eb/speedviewlib-1.3.0-javadoc.jar!/" />

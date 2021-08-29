@@ -7,9 +7,11 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c425c3407585a7316df1fcc3c66064f8/jetified-sdk-notifications-3.3.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c425c3407585a7316df1fcc3c66064f8/jetified-sdk-notifications-3.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c425c3407585a7316df1fcc3c66064f8/jetified-sdk-notifications-3.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04486cf83784ff5353c53cf7356bc6d4/jetified-sdk-notifications-3.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04486cf83784ff5353c53cf7356bc6d4/jetified-sdk-notifications-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04486cf83784ff5353c53cf7356bc6d4/jetified-sdk-notifications-3.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0ef61dd95b51ca524e8fb318b8c8fbb/jetified-sdk-notifications-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ef960c8fc168aef6b856e135041e0ee6/transformed/jetified-sdk-notifications-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0ef61dd95b51ca524e8fb318b8c8fbb/jetified-sdk-notifications-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0ef61dd95b51ca524e8fb318b8c8fbb/jetified-sdk-notifications-3.3.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

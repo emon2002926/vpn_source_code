@@ -4,9 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f95db7746a19cfffa4a140cbc5e8622/jetified-hydra-3.3.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f95db7746a19cfffa4a140cbc5e8622/jetified-hydra-3.3.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f95db7746a19cfffa4a140cbc5e8622/jetified-hydra-3.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afd4fcd4cc73d5690d51e9bf46ba8319/jetified-hydra-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afd4fcd4cc73d5690d51e9bf46ba8319/jetified-hydra-3.3.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afd4fcd4cc73d5690d51e9bf46ba8319/jetified-hydra-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c255ce6ea07b9bd5806439981aed8227/jetified-hydra-3.3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c255ce6ea07b9bd5806439981aed8227/jetified-hydra-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c255ce6ea07b9bd5806439981aed8227/jetified-hydra-3.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

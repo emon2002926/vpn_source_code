@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.cardiomood.android:android-widgets:0.1.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7fa9fafbc0ebd71aa9657a50aebc5b0/jetified-android-widgets-0.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7fa9fafbc0ebd71aa9657a50aebc5b0/jetified-android-widgets-0.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7fa9fafbc0ebd71aa9657a50aebc5b0/jetified-android-widgets-0.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64f7975eb66d0272daf50dbca19e7677/jetified-android-widgets-0.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64f7975eb66d0272daf50dbca19e7677/jetified-android-widgets-0.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64f7975eb66d0272daf50dbca19e7677/jetified-android-widgets-0.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cardiomood.android/android-widgets/0.1.1/3ef7e4dcb7a72726e09d943ff0dd2404b59207b6/android-widgets-0.1.1-javadoc.jar!/" />

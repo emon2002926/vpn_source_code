@@ -3,7 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ff5356794fdc6d324dd4b262811333/jetified-partner-api-android-3.1.3/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a795f3cee7f37e3a83d51f803950a14c/jetified-partner-api-android-3.1.3/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f0f83ea2ad8f38c0986ec7e45b7f162/jetified-partner-api-android-3.1.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84f87a11a2b7535e334d3094bd50528f/jetified-partner-api-android-3.1.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93ff5356794fdc6d324dd4b262811333/jetified-partner-api-android-3.1.3/jars/classes.jar!/" />
@@ -12,9 +12,11 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a795f3cee7f37e3a83d51f803950a14c/jetified-partner-api-android-3.1.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a795f3cee7f37e3a83d51f803950a14c/jetified-partner-api-android-3.1.3/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a795f3cee7f37e3a83d51f803950a14c/jetified-partner-api-android-3.1.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f0f83ea2ad8f38c0986ec7e45b7f162/jetified-partner-api-android-3.1.3/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f0f83ea2ad8f38c0986ec7e45b7f162/jetified-partner-api-android-3.1.3/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f0f83ea2ad8f38c0986ec7e45b7f162/jetified-partner-api-android-3.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84f87a11a2b7535e334d3094bd50528f/jetified-partner-api-android-3.1.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a490758e4996d25b649d17f4e6c6577b/transformed/jetified-partner-api-android-3.1.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84f87a11a2b7535e334d3094bd50528f/jetified-partner-api-android-3.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/84f87a11a2b7535e334d3094bd50528f/jetified-partner-api-android-3.1.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnchorFreePartner/partner-api-android/3.1.3/2905f04cb9b8f6d2bee7e0aa52518f65309da787/partner-api-android-3.1.3-javadoc.jar!/" />

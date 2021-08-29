@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.oatrice:internet-speed-testing:1.0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2548f43b67d719277c48fa461e2d097b/jetified-internet-speed-testing-1.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2548f43b67d719277c48fa461e2d097b/jetified-internet-speed-testing-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2548f43b67d719277c48fa461e2d097b/jetified-internet-speed-testing-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814b82dab15db0991dc9aae5605ebdfb/jetified-internet-speed-testing-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814b82dab15db0991dc9aae5605ebdfb/jetified-internet-speed-testing-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/814b82dab15db0991dc9aae5605ebdfb/jetified-internet-speed-testing-1.0.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
