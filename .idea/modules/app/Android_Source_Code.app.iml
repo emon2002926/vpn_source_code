@@ -174,8 +174,6 @@
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.github.dreierf:material-intro-screen:0.0.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.Shashank02051997:FancyGifDialog-Android:1.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: pl.droidsonroids.gif:android-gif-drawable:1.2.19@aar" level="project" />
-    <orderEntry type="library" name="Gradle: pl.droidsonroids:relinker:1.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.anastr:speedviewlib:1.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.intuit.sdp:sdp-android:1.0.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.cardiomood.android:android-widgets:0.1.1@aar" level="project" />

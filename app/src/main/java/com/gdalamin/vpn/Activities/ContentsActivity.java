@@ -90,11 +90,11 @@ import es.dmoral.toasty.Toasty;
     @BindView(R.id.testShowMeterupload)
     TextView textUploading;
 
-    @BindView(R.id.connection_status)
-    TextView t_connection_status;
+//    @BindView(R.id.connection_status)
+//    TextView t_connection_status;
 
-    @BindView(R.id.connection_status_image)
-    ImageView i_connection_status_image;
+//    @BindView(R.id.connection_status_image)
+//    ImageView i_connection_status_image;
 
     @BindView(R.id.vpn_details)
     ImageView vpn_detail_image;
@@ -116,9 +116,9 @@ import es.dmoral.toasty.Toasty;
 
     @BindView(R.id.flag_name)
     TextView flagName;
-
-    @BindView(R.id.footer)
-    RelativeLayout footer;
+//
+//    @BindView(R.id.footer)
+//    RelativeLayout footer;
 
     //admob native advance)
     private UnifiedNativeAd nativeAd;
@@ -408,9 +408,9 @@ import es.dmoral.toasty.Toasty;
                     case PAUSED: {
 //                        svpn_vpn paused...
                         connectBtnTextView.setImageResource(R.drawable.ic_power);
-                        t_connection_status.setText("Not Selected");
+//                        t_connection_status.setText("Not Selected");
                         connectionStateTextView.setText(R.string.paused);
-                        i_connection_status_image.setImageResource(R.drawable.ic_dot);
+//                        i_connection_status_image.setImageResource(R.drawable.ic_dot);
                         break;
                     }
                     default: {
@@ -487,6 +487,7 @@ import es.dmoral.toasty.Toasty;
 
     protected void showMessage(String msg) {
         Toast.makeText(ContentsActivity.this, msg, Toast.LENGTH_SHORT).show();
+
     }
 //TODO I need to change This
     protected void rateUs() {
@@ -567,7 +568,6 @@ import es.dmoral.toasty.Toasty;
 
 
 
-    @OnClick(R.id.btnServerList)
     void showServerList() {
         startActivity(new Intent(this, Servers.class));
     }
