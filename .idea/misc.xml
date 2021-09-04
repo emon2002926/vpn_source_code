@@ -4,11 +4,27 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.1609375" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/btn_bkg.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/button3.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/button_background.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/button_bg2.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/disable_ultra.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/dra_one.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_stand_by.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/n_bt.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/progress.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/three_month.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/activity_servers.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/ad_unified.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/alertdialouge.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/new_baground.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/recycler_apps.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/region_list_item.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/server_list_free.xml" value="0.14583333333333334" />

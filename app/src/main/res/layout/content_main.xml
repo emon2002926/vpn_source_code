@@ -6,7 +6,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:scrollbars="none"
-    android:background="@color/white1"
+    android:background="@color/txt_grey"
     android:layout_below="@id/top_bar"
     tools:context="com.gdalamin.vpn.Activities.MainActivity">
     <RelativeLayout
@@ -22,13 +22,13 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:textColor="@color/colorPrimary"
-            android:gravity="center"
-            android:textAllCaps="true"
-            android:textSize="20dp"
-            android:layout_marginTop="25dp"
             android:layout_height="wrap_content"
-            android:text="@string/app_name" />
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/white1"
+            android:textSize="20dp" />
 
 
         <LinearLayout
@@ -44,9 +44,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:src="@drawable/ic_menu"
-                />
+                android:src="@drawable/ic_menu" />
 
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/connection_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:drawableStart="@drawable/ic_dot"
+                    android:drawableLeft="@drawable/ic_dot"
+                    android:drawableEnd="@drawable/ic_signal"
+                    android:drawableRight="@drawable/ic_signal"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="Connected Server"
+                    android:textColor="@color/white1"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
 
 
             <RelativeLayout
@@ -67,35 +96,6 @@
 
 
             </RelativeLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:gravity="center"
-                android:orientation="vertical"
-
-                >
-
-                <TextView
-                    android:id="@+id/connection_state"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    android:drawableStart="@drawable/ic_dot"
-                    android:drawableLeft="@drawable/ic_dot"
-                    android:drawableEnd="@drawable/ic_signal"
-                    android:drawableRight="@drawable/ic_signal"
-                    android:drawablePadding="10dp"
-                    android:gravity="center"
-                    android:text="Connected Server"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/_15sdp"
-                    android:textStyle="bold"
-
-                    />
-            </LinearLayout>
 
 
             <RelativeLayout
@@ -154,7 +154,7 @@
                             android:layout_margin="1dp"
                             android:clickable="true"
                             android:text="Select Country"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white1"
                             android:textSize="20sp" />
 
                     </LinearLayout>
@@ -180,7 +180,6 @@
 
             </RelativeLayout>
 
-
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -196,7 +195,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_15sdp"
                     android:text="Connected Imformation"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/white1"
                     android:textSize="@dimen/_20sdp"
 
                     />
@@ -225,7 +224,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Time"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white1"
                             android:textSize="@dimen/_15sdp" />
 
                         <TextView
@@ -238,8 +237,8 @@
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:gravity="start"
                             android:hint="00:00:00"
-                            android:textColor="@color/colorPrimary"
-                            android:textColorHint="@color/colorPrimary"
+                            android:textColor="@color/white1"
+                            android:textColorHint="@color/white1"
                             android:textSize="@dimen/_13sdp" />
 
                     </RelativeLayout>
@@ -257,7 +256,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Download"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white1"
                             android:textSize="@dimen/_15sdp" />
 
 
@@ -270,7 +269,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:text="3.4 mbit"
-                            android:textColor="@color/popUpBg"
+                            android:textColor="@color/white1"
                             android:textSize="@dimen/_15sdp" />
 
                     </RelativeLayout>
@@ -286,7 +285,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Upload"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/white1"
                             android:textSize="@dimen/_15sdp" />
 
                         <TextView
@@ -297,7 +296,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:text="3.4 mbit"
-                            android:textColor="@color/popUpBg"
+                            android:textColor="@color/white1"
                             android:textSize="@dimen/_13sdp"
 
                             />

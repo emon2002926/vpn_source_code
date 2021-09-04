@@ -155,6 +155,14 @@ import es.dmoral.toasty.Toasty;
             }
         });
 
+        TextView next = (TextView) findViewById(R.id.in);
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textAcitivity();
+            }
+        });
+
 
 
 //TODO have to change this
@@ -570,6 +578,10 @@ import es.dmoral.toasty.Toasty;
 
     void showServerList() {
         startActivity(new Intent(this, Servers.class));
+    }
+
+    void textAcitivity(){
+        startActivity(new Intent(this, MainActivity2.class));
     }
 
 

@@ -43,11 +43,13 @@
     <color name="serverNameBg">#cbecfd</color>
     <color name="serverName">#356690</color>
     <color name="lightRed">#FFFFFF</color>
-    <color name="txt_grey">#4e5457</color>
+    <color name="txt_grey">#403F4A</color>
     <color name="txt_blue">#136af6</color>
     <color name="red">#f63030</color>
     <color name="black1">#fb0668</color>
     <color name="white1">#FFFFFF</color>
     <color name="lbaground">#201f3f</color>
+    <color name="black">#000000</color>
+
 
 </resources>
