@@ -14,14 +14,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a82ced4-75b0-499e-9ef2-65edfce6ad1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/MainActivity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/MainActivity3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/worldbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/new_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/worldbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/new_baground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/emonw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/sceound_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baground_sceound_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/baground_sceound.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/baground_sceound_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/baground_sceound_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/baground_sceound_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/baground_sceound_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/baground_sceound_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/baground_sceound_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/baground_sceound_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/baground_sceound_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/baground_sceound_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/baground_sceound.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/baground_sceound_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/baground_sceound_round.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -32,20 +45,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/ContentsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gdalamin/vpn/Activities/ContentsActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/meter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/static_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bkg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bkg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +164,9 @@
     </key>
     <key name="android.template.900259808">
       <recent name="com.gdalamin.vpn.Activities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
     </key>
     <key name="android.template.412820880">
       <recent name="com.whois.vpn.Activities" />

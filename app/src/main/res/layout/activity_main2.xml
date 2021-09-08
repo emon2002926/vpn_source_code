@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/txt_grey"
+            android:background="@color/black"
             android:orientation="vertical"
             android:visibility="visible"
             tools:context=".MainActivity">
@@ -25,7 +25,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_210sdp"
+                android:layout_height="@dimen/_230sdp"
                 android:layout_gravity="center"
                 android:background="@drawable/new_image"
                 android:orientation="vertical"
@@ -70,108 +70,56 @@
                 </LinearLayout>
 
 
-                <RelativeLayout
-                    android:id="@+id/vpn_location"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/_15sdp"
-                    android:layout_marginBottom="@dimen/_26sdp"
-                    android:gravity="center"
-                    android:paddingLeft="7dp"
-                    android:paddingTop="5dp"
-                    android:paddingRight="7dp"
-                    android:paddingBottom="5dp">
+
 
                     <LinearLayout
                         android:id="@+id/header"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_26sdp"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:background="@drawable/btn_bg"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/_3sdp"
+                        >
 
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
-
-                            >
-
-                            <ImageView
-                                android:id="@+id/flag_image"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_gravity="center"
-                                android:src="@drawable/map" />
-                        </LinearLayout>
-
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-
-                            >
 
                             <TextView
                                 android:id="@+id/flag_name"
                                 android:layout_width="wrap_content"
-                                android:layout_height="35dp"
+                                android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
-                                android:layout_margin="1dp"
                                 android:clickable="true"
-                                android:text="Select Country"
+                                android:text="Your Location"
                                 android:textColor="@color/white1"
-                                android:textSize="20sp" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity=""
-                            android:layout_marginEnd="2dp"
-                            android:gravity="start">
-
-                            <ImageView
-                                android:id="@+id/vpn_details"
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:layout_margin="5dp"
-                                android:layout_marginEnd="4dp"
-                                android:src="@drawable/ic_drop_down" />
-
-                        </LinearLayout>
+                                android:background="@color/black"
+                                android:textSize="30sp" />
 
                     </LinearLayout>
 
-                </RelativeLayout>
 
 
             </LinearLayout>
 
 
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_button"
 
+                >
 
-                <RelativeLayout
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/btn_button"
-
-                    >
-
-                    <ImageView
-                        android:id="@+id/connect_btn"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="40dp"
-                        android:src="@drawable/ic_on_off" />
-                </RelativeLayout>
-
+                <ImageView
+                    android:id="@+id/connect_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/ic_on_off" />
+            </RelativeLayout>
 
 
             <RelativeLayout

@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.1609375" />
+        <entry key="app/src/main/res/drawable/baground_sceound_background.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/btn_bkg.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/button3.xml" value="0.16197916666666667" />
@@ -17,7 +18,7 @@
         <entry key="app/src/main/res/drawable/progress.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/three_month.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_servers.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/ad_unified.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/alertdialouge.xml" value="0.14583333333333334" />

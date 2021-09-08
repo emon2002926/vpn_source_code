@@ -1,9 +1,246 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:layout_below="@id/top_bar"
+    android:background="@color/txt_grey"
     tools:context=".Activities.MainActivity3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/txt_grey"
+            android:orientation="vertical"
+            android:visibility="visible"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_230sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/emonw"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_menu" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/connection_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:drawableStart="@drawable/ic_dot"
+                        android:drawableLeft="@drawable/ic_dot"
+                        android:drawableEnd="@drawable/ic_signal"
+                        android:drawableRight="@drawable/ic_signal"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:text="Connected Server"
+                        android:textColor="@color/white1"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_26sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/btn_bg"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/flag_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:text="Your Location"
+                        android:textColor="@color/white1"
+                        android:background="@color/txt_grey"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/connect_btn"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/btn_bkg" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/txt_grey"
+
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/infromtion"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+
+
+                        >
+
+                        <TextView
+                            android:id="@+id/tim"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Time"
+                            android:textColor="@color/white1"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <TextView
+                            android:id="@+id/tv_timer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tim"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:gravity="start"
+                            android:hint="00:00:00"
+                            android:textColor="@color/white1"
+                            android:textColorHint="@color/white1"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_75sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/down"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Download"
+                            android:textColor="@color/white1"
+                            android:textSize="@dimen/_15sdp" />
+
+
+                        <TextView
+                            android:id="@+id/testShowMeterDownload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/down"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="3.4 mbit"
+                            android:textColor="@color/white1"
+                            android:textSize="@dimen/_15sdp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_70sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp">
+
+                        <TextView
+                            android:id="@+id/up"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Upload"
+                            android:textColor="@color/white1"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <TextView
+                            android:id="@+id/testShowMeterupload"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/up"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:text="3.4 mbit"
+                            android:textColor="@color/white1"
+                            android:textSize="@dimen/_13sdp"
+
+                            />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

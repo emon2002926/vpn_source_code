@@ -78,6 +78,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="/tmp/ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -90,8 +91,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../logo.png" />
-                                                <entry key="scalingPercent" value="53" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../thrad_Image.jpg" />
+                                                <entry key="scalingPercent" value="70" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -119,6 +120,12 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="baground_sceound" />
+                                      <entry key="previewDensity" value="XXHIGH" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -282,6 +289,11 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="previewDensity" value="XXHIGH" />
                                     </map>
                                   </option>
                                 </PersistentState>
