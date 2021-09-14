@@ -29,6 +29,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 //import com.airbnb.lottie.LottieAnimationView;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.anchorfree.partner.api.callback.Callback;
 import com.anchorfree.partner.api.data.Country;
 import com.anchorfree.partner.api.response.RemainingTraffic;
@@ -62,7 +63,7 @@ import es.dmoral.toasty.Toasty;
 
  public abstract class ContentsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-//    LottieAnimationView lottieAnimationView;
+    LottieAnimationView lottieAnimationView;
     boolean vpn_toast_check = true;
     private Handler mHandler = new Handler();
     private long mStartTXtRX = 0;
@@ -117,6 +118,7 @@ import es.dmoral.toasty.Toasty;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        lottieAnimationView = findViewById(R.id.animation_view);
 
 
         ButterKnife.bind(this);
@@ -349,6 +351,7 @@ import es.dmoral.toasty.Toasty;
                 switch (vpnState) {
                     case IDLE: {
 
+                        loadIcon();
                         connectBtnTextView.setEnabled(true);
                         connectionStateTextView.setText(R.string.disconnected);
                         timerTextView.setVisibility(View.GONE);
@@ -358,6 +361,7 @@ import es.dmoral.toasty.Toasty;
                     case CONNECTED: {
 
                         //TODO ui elemante
+                        loadIcon();
                         textDownloading.setVisibility(View.VISIBLE);
                         textUploading.setVisibility(View.VISIBLE);
 
@@ -371,6 +375,7 @@ import es.dmoral.toasty.Toasty;
                     case CONNECTING_VPN:
                     case CONNECTING_CREDENTIALS:
                     case CONNECTING_PERMISSIONS: {
+                        loadIcon();
                         connectionStateTextView.setText(R.string.connecting);
                         connectBtnTextView.setEnabled(true);
                         timerTextView.setVisibility(View.GONE);
@@ -508,8 +513,33 @@ import es.dmoral.toasty.Toasty;
 
     };
 
+    //Todo work on this
+     protected void loadIcon() {
+         if (state == VPNState.IDLE) {
+             //Glide.with(this).load(R.drawable.ic_power).into(connectBtnTextView);
+//             t_connection_status.setText("Not Selected");
+//             i_connection_status_image.setImageResource(R.drawable.ic_dot);
 
-    protected void disconnectAlert() {
+         } else if (state == VPNState.CONNECTING_VPN || state == VPNState.CONNECTING_CREDENTIALS) {
+             connectBtnTextView.setVisibility(View.VISIBLE);/*INVISIBLE IS CHEANGED TO VISIBLE*/
+             lottieAnimationView.setVisibility(View.VISIBLE);
+         } else if (state == VPNState.CONNECTED) {
+             //Glide.with(this).load(R.drawable.ic_power).into(connectBtnTextView);
+             connectBtnTextView.setVisibility(View.VISIBLE);
+//             t_connection_status.setText("Selected");
+             lottieAnimationView.setVisibility(View.GONE);
+             if (vpn_toast_check == true) {
+                 Toasty.success(ContentsActivity.this, "Server Connected", Toast.LENGTH_SHORT).show();
+                 vpn_toast_check = false;
+             }
+//             i_connection_status_image.setImageResource(R.drawable.ic_dot);
+
+         }
+     }
+
+
+
+     protected void disconnectAlert() {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Do you want to disconnect?");

@@ -30,12 +30,14 @@ public class Servers extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         adapter = new TabAdapter(getSupportFragmentManager());
-
-
-        adapter.addFragment(new FragmentFree(), "Please Wait a minutes");
+        /*
+         *         Vip Server will be shown in the "Vip Server" fragment...
+         *         Free Server will be shown in the "Free Server" fragment...
+         * */
+//        adapter.addFragment(new FragmentVip(), "Vip Server");
+        adapter.addFragment(new FragmentFree(), "Free Server");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
-
 
     }
 }
