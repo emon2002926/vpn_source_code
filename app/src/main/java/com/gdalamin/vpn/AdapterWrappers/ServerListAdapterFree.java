@@ -54,7 +54,7 @@ public class ServerListAdapterFree extends RecyclerView.Adapter<ServerListAdapte
             Locale locale=new Locale("",data.getCountry());
             holder.flag.setImageResource(context.getResources().getIdentifier("drawable/"+data.getCountry().toLowerCase(),null,context.getPackageName()));
             holder.app_name.setText(locale.getDisplayCountry());
-            holder.limit.setImageResource(R.drawable.server_signal_3);
+//            holder.limit.setImageResource(R.drawable.server_signal_3);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

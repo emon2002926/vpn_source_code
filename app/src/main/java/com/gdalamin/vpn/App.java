@@ -15,8 +15,7 @@ import com.anchorfree.sdk.UnifiedSDK;
 import com.anchorfree.sdk.UnifiedSDKConfig;
 import com.anchorfree.vpnsdk.callbacks.CompletableCallback;
 import com.northghost.caketube.OpenVpnTransportConfig;
-import com.onesignal.OneSignal;
-import com.pixplicity.easyprefs.library.Prefs;
+//import com.pixplicity.easyprefs.library.Prefs;
 
 
 import java.util.ArrayList;
@@ -32,19 +31,19 @@ public class App extends Application {
         super.onCreate();
 
         //Prefs lib
-        new Prefs.Builder()
-                .setContext(this)
-                .setMode(ContextWrapper.MODE_PRIVATE)
-                .setPrefsName(getPackageName())
-                .setUseDefaultSharedPreference(true)
-                .build();
+//        new Prefs.Builder()
+//                .setContext(this)
+//                .setMode(ContextWrapper.MODE_PRIVATE)
+//                .setPrefsName(getPackageName())
+//                .setUseDefaultSharedPreference(true)
+//                .build();
 
         //  OneSignal Initialization
 
-        OneSignal.startInit(this)
-                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
-                .unsubscribeWhenNotificationsAreDisabled(true)
-                .init();
+//        OneSignal.startInit(this)
+//                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+//                .unsubscribeWhenNotificationsAreDisabled(true)
+//                .init();
 
         hydraInit();
     }

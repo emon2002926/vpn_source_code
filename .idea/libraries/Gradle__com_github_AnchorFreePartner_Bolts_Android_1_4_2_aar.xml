@@ -1,17 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AnchorFreePartner:Bolts-Android:1.4.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5184b1056ef95075d2cfe800d0391fb/jetified-Bolts-Android-1.4.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5184b1056ef95075d2cfe800d0391fb/jetified-Bolts-Android-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5184b1056ef95075d2cfe800d0391fb/jetified-Bolts-Android-1.4.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/987c203e686ce37c33fdadacf4248ce5/jetified-Bolts-Android-1.4.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/987c203e686ce37c33fdadacf4248ce5/jetified-Bolts-Android-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/987c203e686ce37c33fdadacf4248ce5/jetified-Bolts-Android-1.4.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47c8e6bcb288f5adabd415d0663104cb/jetified-Bolts-Android-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce786b95c5ef1132c79cc88c31fbb0/jetified-Bolts-Android-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7d5c6e06558d4dd05ead654e0fef11e8/transformed/jetified-Bolts-Android-1.4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce786b95c5ef1132c79cc88c31fbb0/jetified-Bolts-Android-1.4.2/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce786b95c5ef1132c79cc88c31fbb0/jetified-Bolts-Android-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce786b95c5ef1132c79cc88c31fbb0/jetified-Bolts-Android-1.4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ce786b95c5ef1132c79cc88c31fbb0/jetified-Bolts-Android-1.4.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

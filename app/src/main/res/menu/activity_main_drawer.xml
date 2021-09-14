@@ -4,9 +4,6 @@
     tools:showIn="navigation_view"
     >
 
-
-
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_upgrade"
@@ -14,11 +11,6 @@
             android:title="Select Country"
             android:visible="false"/>
 
-        <item
-            android:id="@+id/nav_unlock"
-            android:icon="@drawable/ic_crown"
-            android:title="Purchases"
-            android:visible="false"/>
 
         <item
             android:id="@+id/nav_helpus"
@@ -32,18 +24,13 @@
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_share"
+            android:visible="true"
             android:title="Share App" />
         <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/ic_share"
             android:title="Settings"
             android:visible="false"/>
-        <item
-            android:id="@+id/nav_faq"
-            android:icon="@drawable/ic_crown"
-            android:title="FAQ"
-            android:visible="false"/>
-
         <item
             android:id="@+id/nav_policy"
             android:icon="@drawable/ic_privacy"

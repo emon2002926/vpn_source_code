@@ -6,8 +6,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:scrollbars="none"
-    android:background="@color/txt_grey"
-    android:layout_below="@id/top_bar"
+    android:background="@color/white1"
     tools:context="com.gdalamin.vpn.Activities.MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,7 +26,7 @@
             android:gravity="center"
             android:text="@string/app_name"
             android:textAllCaps="true"
-            android:textColor="@color/white1"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
 
@@ -47,11 +46,34 @@
                 android:src="@drawable/ic_menu" />
 
 
+
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/t"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:background="@drawable/btn_button">
+
+                <ImageView
+                    android:id="@+id/connect_btn"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/ic_on_off" />
+
+
+            </RelativeLayout>
+
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_bg"
                 android:gravity="center"
                 android:orientation="vertical"
 
@@ -61,8 +83,6 @@
                     android:id="@+id/connection_state"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
                     android:drawableStart="@drawable/ic_dot"
                     android:drawableLeft="@drawable/ic_dot"
                     android:drawableEnd="@drawable/ic_signal"
@@ -70,7 +90,7 @@
                     android:drawablePadding="10dp"
                     android:gravity="center"
                     android:text="Connected Server"
-                    android:textColor="@color/white1"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold"
 
@@ -79,36 +99,16 @@
 
 
             <RelativeLayout
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_below="@+id/t"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_45sdp"
-                android:background="@drawable/btn_button">
-
-                <ImageView
-                    android:id="@+id/connect_btn"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/ic_on_off" />
-
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
                 android:id="@+id/vpn_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:gravity="center"
                 android:paddingLeft="7dp"
-                android:paddingTop="5dp"
                 android:paddingRight="7dp"
                 android:paddingBottom="5dp"
+                android:background="@drawable/btn_bg"
 
 
                 >
@@ -117,8 +117,8 @@
                     android:id="@+id/header"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_bg2"
                     android:gravity="center"
+
                     android:orientation="horizontal">
 
 
@@ -154,7 +154,7 @@
                             android:layout_margin="1dp"
                             android:clickable="true"
                             android:text="Select Country"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="20sp" />
 
                     </LinearLayout>
@@ -183,7 +183,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_4sdp"
                 android:background="@drawable/btn_bg"
 
                 >
@@ -195,7 +195,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_15sdp"
                     android:text="Connected Imformation"
-                    android:textColor="@color/white1"
+                    android:textColor="@color/black"
                     android:textSize="@dimen/_20sdp"
 
                     />
@@ -224,7 +224,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Time"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_15sdp" />
 
                         <TextView
@@ -237,8 +237,8 @@
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:gravity="start"
                             android:hint="00:00:00"
-                            android:textColor="@color/white1"
-                            android:textColorHint="@color/white1"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
                             android:textSize="@dimen/_13sdp" />
 
                     </RelativeLayout>
@@ -256,7 +256,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Download"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_15sdp" />
 
 
@@ -269,7 +269,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:text="3.4 mbit"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_15sdp" />
 
                     </RelativeLayout>
@@ -285,7 +285,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Upload"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_15sdp" />
 
                         <TextView
@@ -296,7 +296,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_5sdp"
                             android:text="3.4 mbit"
-                            android:textColor="@color/white1"
+                            android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
 
                             />

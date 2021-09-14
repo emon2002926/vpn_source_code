@@ -53,8 +53,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.gdalamin.vpn.Config;
 import com.gdalamin.vpn.Utils.LocalFormatter;
 import com.gdalamin.vpn.speed.Speed;
-import com.onesignal.OneSignal;
-import com.pixplicity.easyprefs.library.Prefs;
+//import com.pixplicity.easyprefs.library.Prefs;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -81,8 +80,6 @@ import es.dmoral.toasty.Toasty;
     long timeInMilliseconds = 0L;
     long timeSwapBuff = 0L;
     long updatedTime = 0L;
-    @BindView(R.id.toolbar)
-    protected Toolbar toolbar;
 
     @BindView(R.id.testShowMeterDownload)
     TextView textDownloading;
@@ -90,15 +87,8 @@ import es.dmoral.toasty.Toasty;
     @BindView(R.id.testShowMeterupload)
     TextView textUploading;
 
-//    @BindView(R.id.connection_status)
-//    TextView t_connection_status;
-
-//    @BindView(R.id.connection_status_image)
-//    ImageView i_connection_status_image;
-
     @BindView(R.id.vpn_details)
     ImageView vpn_detail_image;
-
 
     @BindView(R.id.tv_timer)
     TextView timerTextView;
@@ -109,16 +99,12 @@ import es.dmoral.toasty.Toasty;
     @BindView(R.id.connection_state)
     TextView connectionStateTextView;
 
-
     @BindView(R.id.flag_image)
     ImageView imgFlag;
 
-
     @BindView(R.id.flag_name)
     TextView flagName;
-//
-//    @BindView(R.id.footer)
-//    RelativeLayout footer;
+
 
     //admob native advance)
     private UnifiedNativeAd nativeAd;
@@ -134,7 +120,6 @@ import es.dmoral.toasty.Toasty;
 
 
         ButterKnife.bind(this);
-        setSupportActionBar(toolbar);
 
 
 
@@ -165,28 +150,6 @@ import es.dmoral.toasty.Toasty;
 
 
 
-//TODO have to change this
-
-
-
-//
-//        if (getResources().getBoolean(R.bool.ads_switch) && (!Config.ads_subscription && !Config.all_subscription && !Config.vip_subscription))
-//        {
-//            // Initialize the Mobile Ads SDK.
-//
-//            MobileAds.initialize(ContentsActivity.this, getString(R.string.admob_appid));
-//
-//            //interstitial
-//            mInterstitialAd = new InterstitialAd(this);
-//            mInterstitialAd.setAdUnitId(getString(R.string.admob_intersitail));
-//            mInterstitialAd.loadAd(new AdRequest.Builder()
-////                    .addTestDevice("91b511f6-d4ab-4a6b-94fa-e538dfbee85f")
-//                    .build());
-//
-//        }
-//
-//        handlerTrafic = new Handler();
-//        handleTraficData();
     }
 
 
@@ -198,7 +161,8 @@ import es.dmoral.toasty.Toasty;
             updateUI();
             connectToVpn();
 //            loadAdAgain();
-        } else if (STATUS.equals("Disconnect")) {
+        }
+        else if (STATUS.equals("Disconnect")) {
             disconnectAlert();
 //            loadAdAgain();
         }
@@ -581,7 +545,6 @@ import es.dmoral.toasty.Toasty;
     }
 
     void textAcitivity(){
-        startActivity(new Intent(this, MainActivity3.class));
     }
 
 

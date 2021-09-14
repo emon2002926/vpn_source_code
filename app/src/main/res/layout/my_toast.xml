@@ -17,7 +17,6 @@
         android:layout_width="fill_parent"
         android:layout_height="53dp"
         android:layout_gravity="bottom"
-        android:background="@drawable/three_month"
         android:gravity="center"
         android:paddingLeft="@dimen/_10sdp"
         android:text="My message"

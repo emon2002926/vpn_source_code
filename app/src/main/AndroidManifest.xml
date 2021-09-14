@@ -19,12 +19,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".Activities.MainActivity3"
-            android:exported="true" />
-        <activity
-            android:name=".Activities.MainActivity2"
-            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

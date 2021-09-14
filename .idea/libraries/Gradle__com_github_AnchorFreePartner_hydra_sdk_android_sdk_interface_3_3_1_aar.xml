@@ -1,17 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:sdk-interface:3.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a96b36c18e83d1fe188c4e2d48e422a/jetified-sdk-interface-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a96b36c18e83d1fe188c4e2d48e422a/jetified-sdk-interface-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2a96b36c18e83d1fe188c4e2d48e422a/jetified-sdk-interface-3.3.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0937a458d6e44c7d62b5b0403ba23927/jetified-sdk-interface-3.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0937a458d6e44c7d62b5b0403ba23927/jetified-sdk-interface-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0937a458d6e44c7d62b5b0403ba23927/jetified-sdk-interface-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0ada8eb97daa614e2af466748dee9ab/jetified-sdk-interface-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e2ef05ca87426f537bfd9dbc8e6ed56/jetified-sdk-interface-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e77946eba3752e78e621aa03dcd0eaf7/transformed/jetified-sdk-interface-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e2ef05ca87426f537bfd9dbc8e6ed56/jetified-sdk-interface-3.3.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e2ef05ca87426f537bfd9dbc8e6ed56/jetified-sdk-interface-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e2ef05ca87426f537bfd9dbc8e6ed56/jetified-sdk-interface-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8e2ef05ca87426f537bfd9dbc8e6ed56/jetified-sdk-interface-3.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

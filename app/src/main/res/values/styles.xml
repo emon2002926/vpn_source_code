@@ -44,7 +44,6 @@
     <style name="DefaultBtn" parent="@android:style/TextAppearance">
         <item name="android:paddingTop">@dimen/default_padding</item>
         <item name="android:paddingBottom">@dimen/default_padding</item>
-        <item name="android:background">@drawable/btn_bkg</item>
         <item name="android:textSize">@dimen/default_text_size</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>

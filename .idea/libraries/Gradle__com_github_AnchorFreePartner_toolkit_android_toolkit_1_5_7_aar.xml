@@ -1,12 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AnchorFreePartner.toolkit-android:toolkit:1.5.7@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6940069ba4cc7afa027fd0714f874275/jetified-toolkit-1.5.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6940069ba4cc7afa027fd0714f874275/jetified-toolkit-1.5.7/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6940069ba4cc7afa027fd0714f874275/jetified-toolkit-1.5.7/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376f38c414e6404396b6c947aa591330/jetified-toolkit-1.5.7/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376f38c414e6404396b6c947aa591330/jetified-toolkit-1.5.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/376f38c414e6404396b6c947aa591330/jetified-toolkit-1.5.7/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe1042ed7eed031da4e4803f2ed8d66e/jetified-toolkit-1.5.7/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe1042ed7eed031da4e4803f2ed8d66e/jetified-toolkit-1.5.7/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe1042ed7eed031da4e4803f2ed8d66e/jetified-toolkit-1.5.7/AndroidManifest.xml" />

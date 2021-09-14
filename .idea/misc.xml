@@ -4,27 +4,61 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.1609375" />
+        <entry key="app/src/main/res/drawable-xhdpi/nav_uptab.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable-xhdpi/uptab.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/baground_sceound_background.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/btn_bkg.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/button3.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/button_background.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/button_bg2.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/common_round_white_2.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/disable_ultra.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/dra_one.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/gradientbackground.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/h_bg.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/h_bg_one.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/home.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_email_white_24dp.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_icon_check.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_love.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_more_vert_24dp.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_on_off.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_paper_plane.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_privacy.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/ic_stand_by.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/n_bt.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/new_test.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/one_month.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/progress.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/resolve_button_selector.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/rounded_circle_blue.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/six_month.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/splashscreen_background.xml" value="0.16197916666666667" />
         <entry key="app/src/main/res/drawable/three_month.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/trans_layer.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/trans_pr.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/drawable/twelve_month.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_servers.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/ad_unified.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/alertdialouge.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/app_bar.xml" value="0.14583333333333334" />
-        <entry key="app/src/main/res/layout/content_main.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_two.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/my_toast.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/new_baground.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/recycler_apps.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/region_list_item.xml" value="0.14583333333333334" />
@@ -32,6 +66,8 @@
         <entry key="app/src/main/res/layout/vpn_disconnection_dialiog.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/menu/main.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/baground_sceound_round.xml" value="0.16197916666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

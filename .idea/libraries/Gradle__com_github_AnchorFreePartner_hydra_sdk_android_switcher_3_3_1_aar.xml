@@ -1,17 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AnchorFreePartner.hydra-sdk-android:switcher:3.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f150a8e1544814b271b95c966bfd7940/jetified-switcher-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f150a8e1544814b271b95c966bfd7940/jetified-switcher-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f150a8e1544814b271b95c966bfd7940/jetified-switcher-3.3.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5567723e17bd0ecd41ca33a147a67bd7/jetified-switcher-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5567723e17bd0ecd41ca33a147a67bd7/jetified-switcher-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5567723e17bd0ecd41ca33a147a67bd7/jetified-switcher-3.3.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/386e3aa425c09358b4af7e9533166439/jetified-switcher-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a9073cd2822fca8e0cd9da028932e4/jetified-switcher-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e80e8f24ca90b8a0ef97d578ee7ab90/transformed/jetified-switcher-3.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a9073cd2822fca8e0cd9da028932e4/jetified-switcher-3.3.1/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a9073cd2822fca8e0cd9da028932e4/jetified-switcher-3.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a9073cd2822fca8e0cd9da028932e4/jetified-switcher-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b1a9073cd2822fca8e0cd9da028932e4/jetified-switcher-3.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
