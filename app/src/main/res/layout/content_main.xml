@@ -49,25 +49,29 @@
 
 
 
-            <RelativeLayout
-                android:layout_width="160dp"
-                android:layout_height="160dp"
-                android:layout_below="@+id/t"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_45sdp"
-                android:background="@drawable/btn_button">
 
                 <ImageView
                     android:id="@+id/connect_btn"
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    android:layout_centerHorizontal="true"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/ic_on_off" />
+                    android:layout_gravity="center"
+                    android:src="@drawable/cnt"
+
+                    />
 
 
-            </RelativeLayout>
 
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/map_load" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -186,6 +190,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:background="@drawable/btn_bg"
+                android:layout_margin="@dimen/_4sdp"
+
 
                 >
 
@@ -305,21 +311,9 @@
                     </RelativeLayout>
 
 
-
                 </LinearLayout>
 
             </RelativeLayout>
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/animation_view"
-                android:layout_width="120dp"
-                android:layout_height="40dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="0dp"
-                android:visibility="invisible"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/map_load" />
 
 
         </LinearLayout>

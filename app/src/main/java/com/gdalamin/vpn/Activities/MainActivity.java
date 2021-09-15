@@ -55,7 +55,7 @@ public class MainActivity extends ContentsActivity implements TrafficListener, V
         MobileAds.initialize(this);
         super.onStart();
 
-//      Try to connect to the svpn_vpn server...
+//      Try to connect to the pro_vpn server...
         UnifiedSDK.addTrafficListener(this);
         UnifiedSDK.addVpnStateListener(this);
         loginToVpn();
@@ -174,13 +174,13 @@ public class MainActivity extends ContentsActivity implements TrafficListener, V
             showMessage("Check internet connection");
         } else if (e != null) {
             if (e instanceof VpnPermissionRevokedException) {
-                showMessage("User revoked svpn_vpn permissions");
+                showMessage("User revoked pro_vpn permissions");
             } else if (e instanceof VpnPermissionDeniedException) {
-                showMessage("User canceled to grant svpn_vpn permissions");
+                showMessage("User canceled to grant pro_vpn permissions");
             } else if (e instanceof HydraVpnTransportException) {
                 VpnTransportException hydraVpnTransportException = (VpnTransportException) e;
                 if (hydraVpnTransportException.getCode() == HydraVpnTransportException.HYDRA_ERROR_BROKEN) {
-                    showMessage("Connection with svpn_vpn server was lost");
+                    showMessage("Connection with pro_vpn server was lost");
                 } else if (hydraVpnTransportException.getCode() == HydraVpnTransportException.HYDRA_DCN_BLOCKED_BW) {
                     showMessage("Client traffic exceeded");
                 } else {

@@ -113,10 +113,12 @@ import es.dmoral.toasty.Toasty;
     private String STATUS;
     private DrawerLayout drawer;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         lottieAnimationView = findViewById(R.id.animation_view);
 
@@ -516,25 +518,26 @@ import es.dmoral.toasty.Toasty;
     //Todo work on this
      protected void loadIcon() {
          if (state == VPNState.IDLE) {
-             //Glide.with(this).load(R.drawable.ic_power).into(connectBtnTextView);
-//             t_connection_status.setText("Not Selected");
-//             i_connection_status_image.setImageResource(R.drawable.ic_dot);
+             connectBtnTextView.setImageResource(R.drawable.cnt);
+
 
          } else if (state == VPNState.CONNECTING_VPN || state == VPNState.CONNECTING_CREDENTIALS) {
              connectBtnTextView.setVisibility(View.VISIBLE);/*INVISIBLE IS CHEANGED TO VISIBLE*/
              lottieAnimationView.setVisibility(View.VISIBLE);
          } else if (state == VPNState.CONNECTED) {
-             //Glide.with(this).load(R.drawable.ic_power).into(connectBtnTextView);
+
              connectBtnTextView.setVisibility(View.VISIBLE);
+             connectBtnTextView.setImageResource(R.drawable.ideal);
+
 //             t_connection_status.setText("Selected");
              lottieAnimationView.setVisibility(View.GONE);
              if (vpn_toast_check == true) {
                  Toasty.success(ContentsActivity.this, "Server Connected", Toast.LENGTH_SHORT).show();
                  vpn_toast_check = false;
              }
-//             i_connection_status_image.setImageResource(R.drawable.ic_dot);
 
          }
+
      }
 
 
