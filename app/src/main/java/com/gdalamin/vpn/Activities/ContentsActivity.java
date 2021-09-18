@@ -105,6 +105,7 @@ import es.dmoral.toasty.Toasty;
 
     @BindView(R.id.flag_name)
     TextView flagName;
+    RelativeLayout relativeLayout;
 
 
     //admob native advance)
@@ -119,7 +120,7 @@ import es.dmoral.toasty.Toasty;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        relativeLayout = (RelativeLayout) findViewById(R.id.liner);
         lottieAnimationView = findViewById(R.id.animation_view);
 
 
@@ -518,7 +519,7 @@ import es.dmoral.toasty.Toasty;
     //Todo work on this
      protected void loadIcon() {
          if (state == VPNState.IDLE) {
-             connectBtnTextView.setImageResource(R.drawable.cnt);
+             connectBtnTextView.setImageResource(R.drawable.connectst);
 
 
          } else if (state == VPNState.CONNECTING_VPN || state == VPNState.CONNECTING_CREDENTIALS) {
@@ -527,7 +528,8 @@ import es.dmoral.toasty.Toasty;
          } else if (state == VPNState.CONNECTED) {
 
              connectBtnTextView.setVisibility(View.VISIBLE);
-             connectBtnTextView.setImageResource(R.drawable.ideal);
+             connectBtnTextView.setImageResource(R.drawable.connectkite);
+             relativeLayout.setVisibility(View.VISIBLE);
 
 //             t_connection_status.setText("Selected");
              lottieAnimationView.setVisibility(View.GONE);

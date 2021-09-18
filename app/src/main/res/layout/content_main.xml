@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -47,60 +49,74 @@
                 android:src="@drawable/ic_menu" />
 
 
-
-
-
-                <ImageView
-                    android:id="@+id/connect_btn"
-                    android:layout_width="200dp"
-                    android:layout_height="160dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/cnt"
-
-                    />
-
-
-
-
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/animation_view"
-                android:layout_width="150dp"
-                android:layout_height="30dp"
-                android:visibility="gone"
+            <ImageView
+                android:id="@+id/connect_btn"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/map_load" />
+                android:layout_marginTop="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/connectst" />
 
-            <LinearLayout
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:background="@drawable/btn_bg"
-                android:gravity="center"
-                android:orientation="vertical"
-
+                android:layout_marginTop="@dimen/_20sdp"
                 >
 
-                <TextView
-                    android:id="@+id/connection_state"
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/map_load"
+                    />
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/ic_dot"
-                    android:drawableLeft="@drawable/ic_dot"
-                    android:drawableEnd="@drawable/ic_signal"
-                    android:drawableRight="@drawable/ic_signal"
-                    android:drawablePadding="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bg"
                     android:gravity="center"
-                    android:text="Connected Server"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_15sdp"
-                    android:textStyle="bold"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/animation_view"
 
-                    />
-            </LinearLayout>
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:drawablePadding="10dp"
+                        android:text="Status :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_20sdp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/connection_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:layout_marginRight="@dimen/_4sdp"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:text="Connected Server"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
 
 
             <RelativeLayout
@@ -108,12 +124,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:gravity="center"
-                android:paddingLeft="7dp"
-                android:paddingRight="7dp"
-                android:paddingBottom="5dp"
+                android:layout_marginTop="@dimen/_20sdp"
                 android:background="@drawable/btn_bg"
+                android:gravity="center"
 
 
                 >
@@ -123,8 +136,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:orientation="horizontal"
 
-                    android:orientation="horizontal">
+                    >
 
 
                     <LinearLayout
@@ -158,9 +172,9 @@
                             android:layout_gravity="center_vertical"
                             android:layout_margin="1dp"
                             android:clickable="true"
-                            android:text="Select Country"
+                            android:text="Lacations"
                             android:textColor="@color/black"
-                            android:textSize="20sp" />
+                            android:textSize="24sp" />
 
                     </LinearLayout>
 
@@ -186,11 +200,13 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/liner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:background="@drawable/btn_bg"
-                android:layout_margin="@dimen/_4sdp"
+                android:visibility="gone"
 
 
                 >
